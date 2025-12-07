@@ -13,3 +13,7 @@ University of Georgia
 Athens, GA 30602
 
 If you have questions about my research, teaching, or potential collaborations, feel free to contact me.
+
+<img src="/assets/img/lunch.jpg.webp">
+
+<img src="/assets/img/waterfall.JPG">
