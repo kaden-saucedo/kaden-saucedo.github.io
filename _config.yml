@@ -1,20 +1,13 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-minimal
+title: "Kaden Saucedo"
+description: "Algebraic geometry and moduli of surfaces"
 
-nav:
-  - name: "Home"
-    link: "/"
-  - name: "Research"
-    link: "/research"
-  - name: "Teaching"
-    link: "/teaching"
-  - name: "Notes"
-    link: "/notes"
-  - name: "CV"
-    link: "/cv"
-  - name: "Contact"
-    link: "/contact"
+theme: minima
+
+# These are the pages that will appear in the top navigation bar.
+header_pages:
+  - index.md
+  - research.md
+  - teaching.md
+  - notes.md
+  - cv.md
+  - contact.md
