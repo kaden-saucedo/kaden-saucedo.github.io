@@ -33,6 +33,8 @@ This project studies the tautological \(\kappa\)-classes on the moduli space of 
 
 In addition, I investigate the **intersection theory** of these \(\kappa\)-classes, computing their intersections inside the Chow ring. A further direction considers **weighted** stable marked degree \(4\) del Pezzo surfaces, in which rational weights are placed on boundary components. In this setting, I study how the \(\kappa\)-classes transform as one crosses walls in the space of weights, in analogy with wall-crossing phenomena for Hassett’s moduli spaces of weighted pointed curves.
 
+<img src="/assets/img/group-chalkboard.JPG" alt="UGA math group" style="width:80%; border-radius:10px;">
+
 ---
 
 ## **Related Interests**
