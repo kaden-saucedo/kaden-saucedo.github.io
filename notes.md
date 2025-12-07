@@ -13,3 +13,5 @@ I plan to use this page to collect expository notes and computations related to 
 - and concrete blowup and intersection-theoretic examples that illustrate general phenomena.
 
 These notes are currently in preparation. As they are revised and polished, I will make selected documents available here.
+
+<img src="/assets/img/slides-talk.jpeg">
