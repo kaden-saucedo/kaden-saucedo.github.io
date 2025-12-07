@@ -44,3 +44,10 @@ Although my primary focus is currently on the degree \(4\) case, I am broadly in
 - other degrees of del Pezzo surfaces,
 - other classes of surfaces amenable to KSBA compactifications, and
 - comparisons between the behavior of \(\kappa\)-classes on moduli of surfaces and on moduli of curves.
+
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+
