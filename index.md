@@ -21,3 +21,8 @@ Broadly, I am interested in moduli spaces of surfaces and their tautological geo
 At the moment, my main project focuses on degree \(4\) del Pezzo surfaces: I am working to understand how \(\kappa\)-classes generate and intersect in the Chow ring of the moduli space, and how these classes behave under variations of weights on the boundary (in the spirit of Hassett’s weighted stable curves).
 
 On this site, you can find information about my **research**, **teaching**, and future **notes and expository writing** in algebraic geometry.
+
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
