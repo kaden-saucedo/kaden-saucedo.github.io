@@ -8,6 +8,12 @@ title: "Home"
 _PhD student in Mathematics_  
 University of Georgia, Athens
 
+<p align="center">
+  <img src="/assets/img/engagement.jpeg">
+  <img src="/assets/img/seminar-chalkboard.jpeg" alt="Graduate Student Seminar Talk" style="width:48%; border-radius:12px;">
+</p>
+
+
 I am a PhD student in the Department of Mathematics at the University of Georgia, where I study algebraic geometry.
 
 Broadly, I am interested in moduli spaces of surfaces and their tautological geometry. More specifically, I am currently studying the tautological classes on moduli spaces of stable marked del Pezzo surfaces, with an emphasis on the \(\kappa\)-classes and their behavior in KSBA compactifications.
