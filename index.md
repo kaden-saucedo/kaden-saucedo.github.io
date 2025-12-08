@@ -8,7 +8,7 @@ title: "Home"
 _PhD student in Mathematics_  
 University of Georgia, Athens
 
-<img src="/assets/img/couple-autumn.jpg"
+<img src="/assets/img/engagement.jpeg"
      alt="Kaden Saucedo"
      style="float:left; width:260px; margin:0 20px 10px 0; border-radius:12px;">
 
