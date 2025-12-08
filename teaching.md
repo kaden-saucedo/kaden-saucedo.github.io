@@ -7,7 +7,7 @@ title: "Teaching"
 
 <img src="/assets/img/teaching-chalkboard.jpeg"
      alt="Teaching in front of a Chalkboard"
-     style="float:left; width:250px; margin:0 15px 15px 0; border-radius:12px">
+     style="float:left; width:150px; margin:0 15px 15px 0; border-radius:18px">
 
 I am currently an instructor and teaching assistant in the Department of Mathematics at the University of Georgia. I have taught both precalculus and calculus, and I enjoy helping students build a solid conceptual foundation that makes later courses in mathematics and the sciences more accessible.
 
