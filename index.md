@@ -10,7 +10,7 @@ University of Georgia, Athens
 
 <img src="/assets/img/engagement.jpeg"
      alt="Kaden Saucedo"
-     style="float:left; width:250px; margin:0 20px 10px 0; border-radius:12px">
+     style="float:left; width:250px; margin:0 15px 15px 0; border-radius:12px">
 
 I am a PhD student in the Department of Mathematics at the University of Georgia, where I study algebraic geometry.
 
