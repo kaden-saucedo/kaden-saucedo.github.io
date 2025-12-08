@@ -14,4 +14,4 @@ I plan to use this page to collect expository notes and computations related to 
 
 These notes are currently in preparation. As they are revised and polished, I will make selected documents available here.
 
-<img src="/assets/img/slides-talk.jpeg">
+<img src="/assets/img/slides-talk.jpeg" style="width:40%">
