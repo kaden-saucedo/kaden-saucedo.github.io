@@ -9,7 +9,7 @@ _PhD student in Mathematics_
 University of Georgia, Athens
 
 <p align="center">
-  <img src="/assets/img/engagement.jpeg" alt="Portrait" style="width=30%">
+  <img src="/assets/img/engagement.jpeg" alt="Portrait" style="width:50%; border-radius:10px">
 </p>
 
 
