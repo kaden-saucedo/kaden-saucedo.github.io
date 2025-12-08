@@ -10,7 +10,7 @@ University of Georgia, Athens
 
 <img src="/assets/img/engagement.jpeg"
      alt="Kaden Saucedo"
-     style="float:left; width:250px; margin:0 20px 10px 0; border-radius:12px;">
+     style="float:left; width:250px; margin:0 20px 10px 0; border-radius:12px">
 
 I am a PhD student in the Department of Mathematics at the University of Georgia, where I study algebraic geometry.
 
@@ -19,3 +19,7 @@ Broadly, I am interested in moduli spaces of surfaces and their tautological geo
 At the moment, my main project focuses on degree $$4$$ del Pezzo surfaces: I am working to understand how \(\kappa\)-classes generate and intersect in the Chow ring of the moduli space, and how these classes behave under variations of weights on the boundary (in the spirit of Hassett’s weighted stable curves).
 
 On this site, you can find information about my **research**, **teaching**, and future **notes and expository writing** in algebraic geometry.
+
+<p align="center">
+     <img src="/assets/img/seminar-chalkboard.jpeg" style="border-radius:12px">
+</p>
