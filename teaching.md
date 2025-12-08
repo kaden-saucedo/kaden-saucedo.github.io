@@ -13,6 +13,8 @@ I am currently an instructor and teaching assistant in the Department of Mathema
 
 I value clear explanations, well-chosen examples, and a classroom environment where students feel comfortable asking questions and working through mistakes. My goal is to help students see mathematics as something coherent and understandable, rather than a collection of disconnected rules.
 
+<br><br>
+
 ---
 
 ## **Courses as Instructor of Record**
