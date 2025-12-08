@@ -8,10 +8,9 @@ title: "Home"
 _PhD student in Mathematics_  
 University of Georgia, Athens
 
-<p align="center">
-  <img src="/assets/img/engagement.jpeg" alt="Portrait" style="width:50%; border-radius:10px">
-</p>
-
+<img src="/assets/img/couple-autumn.jpg"
+     alt="Kaden Saucedo"
+     style="float:left; width:260px; margin:0 20px 10px 0; border-radius:12px;">
 
 I am a PhD student in the Department of Mathematics at the University of Georgia, where I study algebraic geometry.
 
