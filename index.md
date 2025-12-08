@@ -15,6 +15,8 @@ At the moment, my main project focuses on degree $$4$$ del Pezzo surfaces: I am 
 
 On this site, you can find information about my **research**, **teaching**, and future **notes and expository writing** in algebraic geometry.
 
+<br>
+
 <p align="center">
-     <img src="/assets/img/seminar-chalkboard.jpeg" style="width:75%; border-radius:12px">
+     <img src="/assets/img/seminar-chalkboard.jpeg" style="width:50%; border-radius:12px">
 </p>
