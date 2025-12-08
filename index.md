@@ -3,8 +3,6 @@ layout: default
 title: "Home"
 ---
 
-# **Kaden Saucedo**
-
 <img src="/assets/img/engagement.jpeg"
      alt="Kaden Saucedo"
      style="float:left; width:250px; margin:0 15px 15px 0; border-radius:12px">
