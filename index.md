@@ -7,7 +7,7 @@ title: "Home"
      alt="Kaden Saucedo"
      style="float:left; width:250px; margin:0 15px 15px 0; border-radius:12px">
 
-I am a **PhD student** in the Department of Mathematics at the **University of Georgia**, where I study **algebraic geometry** under the direction of **Valery Alexeev**.
+I am a **PhD student** in the Department of Mathematics at the [**University of Georgia**](https://www.uga.edu), where I study **algebraic geometry** under the direction of **Valery Alexeev**.
 
 Broadly, I am interested in moduli spaces of surfaces and their tautological geometry. More specifically, I am currently studying the tautological classes on moduli spaces of stable marked del Pezzo surfaces, with an emphasis on the $$\kappa$$-classes and their behavior in KSBA compactifications.
 
