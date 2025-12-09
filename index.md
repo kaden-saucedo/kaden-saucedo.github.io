@@ -5,7 +5,7 @@ title: "Home"
 
 <img src="/assets/img/seminar-chalkboard.jpeg"
      alt="Kaden Saucedo"
-     style="float:left; width:250px; margin:0 15px 15px 0; border-radius:12px">
+     style="float:left; width:30%; margin:0 15px 15px 0; border-radius:12px">
 
 I am a **PhD student** in the Department of Mathematics at the [**University of Georgia**](https://www.uga.edu), where I study **algebraic geometry** under the direction of **Valery Alexeev**.
 
