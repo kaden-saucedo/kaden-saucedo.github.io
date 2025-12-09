@@ -7,7 +7,7 @@ title: "Notes"
 
 <img src="/assets/img/slides-talk.jpeg"
      alt="Teaching in front of a Chalkboard"
-     style="float:left; width:225px; margin:0 20px 15px 0; border-radius:18px">
+     style="float:left; width:225px; margin:0 24px 12px 0; border-radius:18px">
 
 I plan to use this page to collect expository notes and computations related to my research interests in algebraic geometry, particularly:
 
