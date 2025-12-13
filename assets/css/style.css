@@ -1,0 +1,94 @@
+/* ============================================================
+   SPACING BETWEEN SECTIONS AND PARAGRAPHS
+   ------------------------------------------------------------
+   Purpose:
+   Improve readability by giving content more breathing room.
+   This prevents text from appearing crowded, especially on
+   longer academic pages with multiple blocks of exposition.
+   ============================================================ */
+
+section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+
+/* ============================================================
+   CLEARER HEADING HIERARCHY
+   ------------------------------------------------------------
+   Purpose:
+   Make section titles stand out more clearly so readers can
+   visually navigate the page without effort. This benefits
+   audiences skimming for teaching info, research summaries,
+   or notes.
+   ============================================================ */
+
+h1, h2, h3 {
+    font-weight: 600;  /* Slightly bolder for contrast */
+}
+
+h2 {
+    font-size: 1.6rem; /* Distinct section headers */
+}
+
+h3 {
+    font-size: 1.3rem; /* Subsection headers */
+}
+
+
+/* ============================================================
+   OPTIMAL TEXT WIDTH FOR READABILITY
+   ------------------------------------------------------------
+   Purpose:
+   Academic writing becomes harder to read when lines are too long.
+   Restricting the line length (to ~60–80 characters) improves
+   comprehension and creates a more polished appearance,
+   especially on wide desktop monitors.
+   ============================================================ */
+
+main {
+    max-width: 800px;   /* Comfortable line length */
+    margin: 0 auto;     /* Center the content */
+    padding: 1rem;      /* Add horizontal breathing room */
+}
+
+
+/* ============================================================
+   DISTINCT, ACCESSIBLE LINK STYLING
+   ------------------------------------------------------------
+   Purpose:
+   Make hyperlinks easy to recognize and distinguish, which is
+   especially important for students navigating to your CV,
+   notes, or teaching materials. The hover effect reinforces
+   that the item is interactive.
+   ============================================================ */
+
+a {
+    color: #0040aa;         /* Professional, high-contrast color */
+    text-decoration: none;  /* Clean look */
+    font-weight: 500;       /* Slight visual emphasis */
+}
+
+a:hover {
+    text-decoration: underline; /* Clear visual feedback */
+    color: #002f7a;             /* Slightly darker hover tone */
+}
+
+
+/* ============================================================
+   RESPONSIVE IMAGE BEHAVIOR
+   ------------------------------------------------------------
+   Purpose:
+   Ensure images (like your portrait) resize appropriately on
+   phones and tablets. Prevents layout breaking or sideways
+   scrolling on small screens.
+   ============================================================ */
+
+img {
+    max-width: 100%;  /* Shrink to fit container */
+    height: auto;     /* Maintain proportions */
+}
