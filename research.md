@@ -5,7 +5,8 @@ title: "Research"
 
 # **Research**
 
-My research lies in algebraic geometry, with a focus on the geometry of moduli spaces of surfaces and their tautological classes.
+My research focuses on moduli spaces of surfaces, especially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
+
 
 I am particularly interested in:
 
