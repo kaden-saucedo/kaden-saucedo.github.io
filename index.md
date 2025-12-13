@@ -18,5 +18,5 @@ On this site, you can find information about my [**research**](/research), [**te
 <br>
 
 <p align="center">
-     <img src="/assets/img/engagement.jpeg" style="width:50%; border-radius:12px">
+     <img src="/assets/img/engagement.jpeg" alt="Engagement photo" style="width:50%; border-radius:12px">
 </p>
