@@ -3,9 +3,7 @@ layout: default
 title: "Home"
 ---
 
-<img src="/assets/img/seminar-chalkboard.jpeg"
-     alt="Kaden Saucedo"
-     style="float:left; width:35%; margin:0 15px 15px 0; border-radius:12px">
+<img src="/assets/img/engagement.jpeg" alt="Engagement photo" style="width:35%; border-radius:12px">
 
 I am a **PhD student** in the Department of Mathematics at the [**University of Georgia**](https://www.uga.edu), where I study **algebraic geometry** under the direction of [**Valery Alexeev**](https://www.math.uga.edu/directory/people/valery-alexeev).
 
@@ -18,5 +16,7 @@ On this site, you can find information about my [**research**](/research), [**te
 <br>
 
 <p align="center">
-     <img src="/assets/img/engagement.jpeg" alt="Engagement photo" style="width:50%; border-radius:12px">
+     <img src="/assets/img/seminar-chalkboard.jpeg"
+     alt="Kaden Saucedo"
+     style="float:left; width:50%; margin:0 15px 15px 0; border-radius:12px">
 </p>
