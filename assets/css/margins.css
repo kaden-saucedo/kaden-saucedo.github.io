@@ -1,11 +1,32 @@
-/* Desktop-only margin panels for math/proofs */
+/* ==========================================================
+   Desktop-only margin panels for math/proofs
+   - Centered in the left/right gutter
+   - Width = a % of that gutter (scales with monitor)
+   ========================================================== */
+
+:root {
+  /* Approximate max width of your main content column.
+     If your boxes feel mis-centered, adjust this first. */
+  --content-max: 900px;
+
+  /* Spacing controls */
+  --edge-pad: 24px;     /* distance from browser edge */
+  --gutter-gap: 16px;   /* gap between content column and gutter region */
+
+  /* Box sizing: percentage of the gutter (0.0 to 1.0) */
+  --box-pct: 0.75;      /* e.g. 0.70 = 70% of gutter */
+
+  /* Safety bounds for readability */
+  --box-min: 220px;
+  --box-max: 360px;
+}
+
+/* Base styling shared by left and right boxes */
 .margin-math {
   position: fixed;
-  top: 110px;                 /* adjust to clear your header */
-  width: 18vw;
-  max-width: 320px;
-  min-width: 220px;
+  top: 110px; /* adjust to clear your header */
   height: calc(100vh - 140px);
+
   overflow: auto;
   padding: 0.75rem 0.9rem;
 
@@ -13,25 +34,46 @@
   line-height: 1.35;
   opacity: 0.85;
 
-  /* “quiet” look */
   background: transparent;
   border: 1px solid rgba(127,127,127,0.25);
   border-radius: 10px;
 
-  /* keep it from stealing clicks/scroll from main content too aggressively */
   pointer-events: auto;
   z-index: 5;
+
+  /* --------- Gutter math ---------
+     Gutter width ≈ (viewport - content-max)/2.
+     Then subtract edge padding and a gap to keep away from main text.
+  */
+  --gutter: calc((100vw - var(--content-max)) / 2 - var(--edge-pad) - var(--gutter-gap));
+  --boxw: calc(var(--gutter) * var(--box-pct));
+
+  /* Box width scales with monitor, but stays within min/max bounds */
+  width: clamp(var(--box-min), var(--boxw), var(--box-max));
 }
 
-.margin-math-left  { left: 24px; }
-.margin-math-right { right: 24px; }
+/* Center the box within the left gutter */
+.margin-math-left {
+  left: calc(
+    var(--edge-pad)
+    + (var(--gutter) - clamp(var(--box-min), var(--boxw), var(--box-max))) / 2
+  );
+}
+
+/* Center the box within the right gutter */
+.margin-math-right {
+  right: calc(
+    var(--edge-pad)
+    + (var(--gutter) - clamp(var(--box-min), var(--boxw), var(--box-max))) / 2
+  );
+}
 
 /* Hide on smaller screens (tablet/phone) */
 @media (max-width: 1100px) {
   .margin-math { display: none; }
 }
 
-/* Optional: if the margins are tight on some laptops, reduce widths */
+/* Optional: hide earlier if your gutters get too tight on laptops */
 @media (max-width: 1350px) {
-  .margin-math { width: 16vw; min-width: 200px; }
+  .margin-math { display: none; }
 }
