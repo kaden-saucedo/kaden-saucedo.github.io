@@ -11,7 +11,7 @@ title: "Research"
   <hr>
   The $\kappa_0$ case is the most straightforward, as we can consider a generic fiber $(S,B)$ and identify that $\kappa_0=(K_S+B)^2$. We compute examples of families:<br>
 
-  - Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to Spec k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/Spec k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/Speck}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
+  - Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to \\text{Spec} k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/\\text{Spec} k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/\\text{Spec}k}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
   - Let $\pi:X\times Y\to Y$ denote a trivial family of $X$ parametrized by $Y$. If we ignore the boundary, then $\kappa_0=(K_{X\times Y/Y})^{\dim X}$. Now, $K_{X\times Y/Y}=K_{X\times Y}-\pi^\ast(K_Y)=\rho^\ast(K_X)+\pi^\ast(K_Y)-\pi^\ast(K_Y)=\rho^\ast(K_X)$. Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. <br> 
   - Let $\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
     \[
@@ -54,11 +54,11 @@ title: "Research"
 
 # **Research**
 
-My research focuses on moduli spaces of surfaces, especially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
+My research focuses on moduli spaces of surfaces, e	ext{Spec}ially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
 
 I am particularly interested in:
 
-- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, especially del Pezzo surfaces.
+- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, e	ext{Spec}ially del Pezzo surfaces.
 - **Tautological classes on moduli spaces:** in particular the $$\kappa$$-classes, their intersection theory, and their role in the structure of the Chow ring.
 - **Del Pezzo surfaces and their degenerations:** understanding how del Pezzo surfaces fit into KSBA compactifications and how their degenerations are reflected in boundary strata.
 
