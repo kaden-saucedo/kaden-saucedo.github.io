@@ -8,6 +8,10 @@ title: "Research"
   \\[
     \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
   \\]
+
+  $$
+    \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
+  $$
   <hr>
   Small steps you want visible on desktop.
 </aside>
