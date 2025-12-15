@@ -11,19 +11,19 @@ title: "Research"
   <hr>
   The $\kappa_0$ case is the most straightforward, as we can consider a generic fiber $(S,B)$ and identify that $\kappa_0=(K_S+B)^2$. We compute examples of families:<br>
 
-  - Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to \mathrm{Spec } k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/\mathrm{Spec } k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/\mathrm{Spec }k}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
-  - Let $\pi:X\times Y\to Y$ denote a trivial family of $X$ parametrized by $Y$. If we ignore the boundary, then $\kappa_0=(K_{X\times Y/Y})^{\dim X}$. Now, $K_{X\times Y/Y}=K_{X\times Y}-\pi^\ast(K_Y)=\rho^\ast(K_X)+\pi^\ast(K_Y)-\pi^\ast(K_Y)=\rho^\ast(K_X)$. Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. <br> 
-  - Let $\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
-    \[
+  -- Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to \mathrm{Spec } k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/\mathrm{Spec } k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/\mathrm{Spec }k}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
+  -- Let $\pi:X\times Y\to Y$ denote a trivial family of $X$ parametrized by $Y$. If we ignore the boundary, then $\kappa_0=(K_{X\times Y/Y})^{\dim X}$. Now, $K_{X\times Y/Y}=K_{X\times Y}-\pi^\ast(K_Y)=\rho^\ast(K_X)+\pi^\ast(K_Y)-\pi^\ast(K_Y)=\rho^\ast(K_X)$. Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. <br> 
+  -- Let $\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
+    \\[
     \kappa_0=\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)=\pi_\ast((K_X+D)^2)=\pi_\ast(K_X^2)+2\pi_\ast(K_XD)+\pi_\ast(D^2).
-    \]
+    \\]
     If $\mathcal L$ is a section, then these pushforwards $\pi_\ast$ don't affect the result, giving us $\kappa_0=(K_X+D)^2$. If $\mathcal L$ is a fiber, however, then $\pi_\ast(D)=\pi_\ast(D^2)=0$, so that $\kappa_0=K_X^2$. Finally, let $X=\mathbb P^2$, and $\mathcal L=\mathcal O_{X\times\mathbb P^1}(aH,bL)$ be a diagonal of type $(a,b)$, where $H$ is a hyperplane class of $\mathbb P^2$ and $L$ is a hyperplane class of $\mathbb P^1$. Then $\mathcal L=a\rho^\ast(H)+b\pi^\ast(L)$, where $\rho:\mathbb P^2\times\mathbb P^1\to\mathbb P^2$ is the projection map. Then a direct computation yields the following result:
-    \[
+    \\[
     \kappa_0=\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)=\pi_\ast(\rho^\ast(K_{\mathbb P^2})+a\rho^\ast(H)+b\pi^\ast(L))^2=\pi_\ast((a-3)\rho^\ast(H)+b\pi^\ast(L))^2.
-    \]
+    \\]
     Now, $\pi_\ast(\pi^\ast(L))=L$ and $L^2=0$, so we obtain $\kappa_0=(a-3)^2+2b(a-3)=(a-3)(a+2b-3)$. <br>
-  - We extend the previous case to where $X$ is a reducible variety. Let's take $X=V(xy)\subset\mathbb P^2$, and consider the same setup $\pi:X\times\mathbb P^1\to\mathbb P^1$. Since $X$ is a complete intersection of lines $X=V(x)\cup V(y)$, we have that $K_X=(K_{\mathbb P^2}+X)|_X=(-H)|_X=-(H|_X)$. To compute the degree of $K_X$, note that $H|_X$ is the degree of $X$ in $\mathbb P^2$, and since $X$ is a degenerate conic, we get $\deg K_X=-2$. Therefore $\kappa_0=\pi_\ast(K_X)=\deg(K_X)=-2.$ <br>
-  - Let $X=\bar Y(E_d)$ denote the moduli of marked degree $9-d\le6$ del Pezzo surfaces, and $f:Y\to X$ be the universal family. The "marked" condition gives us a boundary divisor of the sum of the lines of the surface. That is, if $S$ is a general smooth surface, then $B=\sum L_i$ is the sum of lines of $S$. We can evaluate $B^2$ to be $\ell(d)^2/d$ in a straightforward computation: 
+  -- We extend the previous case to where $X$ is a reducible variety. Let's take $X=V(xy)\subset\mathbb P^2$, and consider the same setup $\pi:X\times\mathbb P^1\to\mathbb P^1$. Since $X$ is a complete intersection of lines $X=V(x)\cup V(y)$, we have that $K_X=(K_{\mathbb P^2}+X)|_X=(-H)|_X=-(H|_X)$. To compute the degree of $K_X$, note that $H|_X$ is the degree of $X$ in $\mathbb P^2$, and since $X$ is a degenerate conic, we get $\deg K_X=-2$. Therefore $\kappa_0=\pi_\ast(K_X)=\deg(K_X)=-2.$ <br>
+  -- Let $X=\bar Y(E_d)$ denote the moduli of marked degree $9-d\le6$ del Pezzo surfaces, and $f:Y\to X$ be the universal family. The "marked" condition gives us a boundary divisor of the sum of the lines of the surface. That is, if $S$ is a general smooth surface, then $B=\sum L_i$ is the sum of lines of $S$. We can evaluate $B^2$ to be $\ell(d)^2/d$ in a straightforward computation: 
     \[
     B^2=\left(\sum_{i=1}^{\ell(d)}L_i\right)^2=\ell(d)\cdot\left(L.\sum_{i=1}^{\ell(d)}L_i \right)=\ell(d)\cdot \alpha(d).
     \]
