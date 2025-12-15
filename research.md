@@ -4,12 +4,12 @@ title: "Research"
 ---
 
 <aside class="margin-math margin-math-left">
-  <strong>Sketch</strong><br>
+  <strong>Definition for a pair $$(X,\mathcal B)$$:</strong><br>
   $$
-    \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
+    \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
   <hr>
-  Small steps you want visible on desktop.
+  We compute some small examples below: 
 </aside>
 
 # **Research**
