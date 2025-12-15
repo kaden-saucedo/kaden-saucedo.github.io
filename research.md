@@ -3,6 +3,15 @@ layout: math
 title: "Research"
 ---
 
+<aside class="margin-math margin-math-left">
+  <strong>Sketch</strong><br>
+  \\[
+    \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
+  \\]
+  <hr>
+  Small steps you want visible on desktop.
+</aside>
+
 # **Research**
 
 My research focuses on moduli spaces of surfaces, especially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
