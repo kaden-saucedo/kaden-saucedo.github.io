@@ -1,0 +1,50 @@
+/* Container that acts as the anchor for absolutely positioned margin notes */
+.margin-wrap {
+  position: relative;
+  max-width: 760px;     /* your main text column width */
+  margin: 0 auto;
+}
+
+/* Base style for margin notes */
+.margin-note {
+  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco,
+               Consolas, "Liberation Mono", "Courier New", monospace;
+  font-size: 0.82rem;
+  line-height: 1.25;
+  color: #444;
+  opacity: 0.92;
+
+  padding-left: 10px;
+  border-left: 2px solid rgba(0,0,0,0.12);
+}
+
+.margin-note .label {
+  display: block;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #666;
+  margin-bottom: 6px;
+}
+
+/* Desktop: push notes into margins */
+@media (min-width: 1100px) {
+  .margin-note {
+    position: absolute;
+    width: 260px;
+  }
+  .margin-note.right { right: -310px; }
+  .margin-note.left  { left:  -310px; }
+}
+
+/* Mobile: notes become inline callouts */
+@media (max-width: 1099px) {
+  .margin-note {
+    position: static;
+    width: auto;
+    margin: 14px 0;
+    padding: 10px 12px;
+    border-left: 3px solid rgba(0,0,0,0.12);
+    background: rgba(0,0,0,0.03);
+  }
+}
