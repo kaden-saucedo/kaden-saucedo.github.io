@@ -9,14 +9,45 @@ title: "Research"
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
   <hr>
-  We compute some small examples below: <br>
-  $$
-  \begin{align*}
-  \kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
-  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
-  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
-  \end{align*}
-  $$
+  The $\kappa_0$ case is the most straightforward, as we can consider a generic fiber $(S,B)$ and identify that $\kappa_0=(K_S+B)^2$. We compute examples of families:<br>
+
+\begin{itemize}
+    \item Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to Spec k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/Spec k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/Speck}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. 
+    \item Let $\pi:X\times Y\to Y$ denote a trivial family of $X$ parametrized by $Y$. If we ignore the boundary, then $\kappa_0=(K_{X\times Y/Y})^{\dim X}$. Now, $K_{X\times Y/Y}=K_{X\times Y}-\pi^\ast(K_Y)=\rho^\ast(K_X)+\pi^\ast(K_Y)-\pi^\ast(K_Y)=\rho^\ast(K_X)$. Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. 
+    \item Let $\pi:(X\times\bbp^1,\cl)\to\bbp^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\cl$. In this case, it makes sense to consider $\cl$ a section to $\pi$, but we will also consider boundary where $\cl$ is a fiber of $\pi$ and when $\cl$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\cl=\co_{X\times\bbp^1}(D)$, then 
+    \[
+    \kappa_0=\pi_\ast((K_{X\times\bbp^1/\bbp^1}+D)^2)=\pi_\ast((K_X+D)^2)=\pi_\ast(K_X^2)+2\pi_\ast(K_XD)+\pi_\ast(D^2).
+    \]
+    If $\cl$ is a section, then these pushforwards $\pi_\ast$ don't affect the result, giving us $\kappa_0=(K_X+D)^2$. If $\cl$ is a fiber, however, then $\pi_\ast(D)=\pi_\ast(D^2)=0$, so that $\kappa_0=K_X^2$. Finally, let $X=\bbp^2$, and $\cl=\co_{X\times\bbp^1}(aH,bL)$ be a diagonal of type $(a,b)$, where $H$ is a hyperplane class of $\bbp^2$ and $L$ is a hyperplane class of $\bbp^1$. Then $\cl=a\rho^\ast(H)+b\pi^\ast(L)$, where $\rho:\bbp^2\times\bbp^1\to\bbp^2$ is the projection map. Then a direct computation yields the following result:
+    \[
+    \kappa_0=\pi_\ast((K_{X\times\bbp^1/\bbp^1}+D)^2)=\pi_\ast(\rho^\ast(K_{\bbp^2})+a\rho^\ast(H)+b\pi^\ast(L))^2=\pi_\ast((a-3)\rho^\ast(H)+b\pi^\ast(L))^2.
+    \]
+    Now, $\pi_\ast(\pi^\ast(L))=L$ and $L^2=0$, so we obtain $\kappa_0=(a-3)^2+2b(a-3)=(a-3)(a+2b-3)$
+    \item We extend the previous case to where $X$ is a reducible variety. Let's take $X=V(xy)\subset\mathbb P^2$, and consider the same setup $\pi:X\times\mathbb P^1\to\mathbb P^1$. Since $X$ is a complete intersection of lines $X=V(x)\cup V(y)$, we have that $K_X=(K_{\bbp^2}+X)|_X=(-H)|_X=-(H|_X)$. To compute the degree of $K_X$, note that $H|_X$ is the degree of $X$ in $\mathbb P^2$, and since $X$ is a degenerate conic, we get $\deg K_X=-2$. Therefore $\kappa_0=\pi_\ast(K_X)=\deg(K_X)=-2.$
+    \item Let $X=\bar Y(E_d)$ denote the moduli of marked degree $9-d\le6$ del Pezzo surfaces, and $f:Y\to X$ be the universal family. The "marked" condition gives us a boundary divisor of the sum of the lines of the surface. That is, if $S$ is a general smooth surface, then $B=\sum L_i$ is the sum of lines of $S$. We can evaluate $B^2$ to be $\ell(d)^2/d$ in a straightforward computation: 
+    \[
+    B^2=\left(\sum_{i=1}^{\ell(d)}L_i\right)^2=\ell(d)\cdot\left(L.\sum_{i=1}^{\ell(d)}L_i \right)=\ell(d)\cdot \alpha(d).
+    \]
+    Where $\alpha(d)$ is fixed regardless of the choice of the line $L$. To determine $\alpha(d)$, we observe that $\sum L_i$ is some multiple of $-K_S$, in fact precisely $-\alpha(d)K_S$. Thus to extract $\alpha(d)$, we see that 
+    \[
+    \left(\sum_{i=1}^{\ell(d)}L_i\right).(-K_S)=\alpha(d)(-K_S)^2\implies \ell(d)=\alpha(d)d.
+    \]
+    In particular, $\alpha(d)=\ell(d)/d$ and $B^2=\ell(d)^2/d$. Then a direct computation yields the following result:
+    \[
+    \kappa_0=(K_S+B)^2=K_S^2+2K_SB+B^2=d-2\ell(d)+\frac{\ell(d)^2}{d}.
+    \]
+    For instance, for $d=4$, $\kappa_0=4-2(16)+\frac{16^2}{4}=-28+64=36$. In a table,
+    \[
+    \boxed{\begin{tabular}{|c||c|c|c|c|c|c|}
+        \hline 
+        $d$    & $6$ & $5$  & $4$  & $3$  & $2$  & $1$  \\
+        \hline 
+        $\ell(d)$ & $6$ & $10$ & $16$ & $27$ & $56$ & $240$\\
+        \hline
+        $\kappa_0(d)$ & $0$ & $5$ & $36$ & $192$ & $1458$ & $57121$ \\
+        \hline
+    \end{tabular}}
+    \]
 </aside>
 
 # **Research**
