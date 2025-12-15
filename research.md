@@ -22,8 +22,10 @@ title: "Research"
     If $\mathcal L$ is a section, then these pushforwards $\pi_\ast$ don't affect the result, giving us $\kappa_0=(K_X+D)^2$. If $\mathcal L$ is a fiber, however, then $\pi_\ast(D)=\pi_\ast(D^2)=0$, so that $\kappa_0=K_X^2$. Finally, let $X=\mathbb P^2$, and $\mathcal L=\mathcal O_{X\times\mathbb P^1}(aH,bL)$ be a diagonal of type $(a,b)$, where $H$ is a hyperplane class of $\mathbb P^2$ and $L$ is a hyperplane class of $\mathbb P^1$. Then $\mathcal L=a\rho^\ast(H)+b\pi^\ast(L)$, where $\rho:\mathbb P^2\times\mathbb P^1\to\mathbb P^2$ is the projection map. Then a direct computation yields the following result:
     $$
     \begin{aligned}
-    \kappa_0 & =\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2) <br> 
-     & =\pi_\ast(\rho^\ast(K_{\mathbb P^2})+a\rho^\ast(H)+b\pi^\ast(L))^2 <br> 
+    \kappa_0 & =\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)
+    \\ 
+     & =\pi_\ast(\rho^\ast(K_{\mathbb P^2})+a\rho^\ast(H)+b\pi^\ast(L))^2
+    \\
      & =\pi_\ast((a-3)\rho^\ast(H)+b\pi^\ast(L))^2.
     \end{aligned}
     $$
