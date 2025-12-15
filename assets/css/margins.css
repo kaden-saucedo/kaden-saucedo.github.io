@@ -1,50 +1,37 @@
-/* Container that acts as the anchor for absolutely positioned margin notes */
-.margin-wrap {
-  position: relative;
-  max-width: 760px;     /* your main text column width */
-  margin: 0 auto;
+/* Desktop-only margin panels for math/proofs */
+.margin-math {
+  position: fixed;
+  top: 110px;                 /* adjust to clear your header */
+  width: 18vw;
+  max-width: 320px;
+  min-width: 220px;
+  height: calc(100vh - 140px);
+  overflow: auto;
+  padding: 0.75rem 0.9rem;
+
+  font-size: 0.95rem;
+  line-height: 1.35;
+  opacity: 0.85;
+
+  /* “quiet” look */
+  background: transparent;
+  border: 1px solid rgba(127,127,127,0.25);
+  border-radius: 10px;
+
+  /* keep it from stealing clicks/scroll from main content too aggressively */
+  pointer-events: auto;
+  z-index: 5;
 }
 
-/* Base style for margin notes */
-.margin-note {
-  font-family: ui-monospace, "SFMono-Regular", Menlo, Monaco,
-               Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 0.82rem;
-  line-height: 1.25;
-  color: #444;
-  opacity: 0.92;
+.margin-math-left  { left: 24px; }
+.margin-math-right { right: 24px; }
 
-  padding-left: 10px;
-  border-left: 2px solid rgba(0,0,0,0.12);
+/* Hide on smaller screens (tablet/phone) */
+@media (max-width: 1100px) {
+  .margin-math { display: none; }
 }
 
-.margin-note .label {
-  display: block;
-  font-size: 0.72rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: #666;
-  margin-bottom: 6px;
-}
-
-/* Desktop: push notes into margins */
-@media (min-width: 1100px) {
-  .margin-note {
-    position: absolute;
-    width: 260px;
-  }
-  .margin-note.right { right: -310px; }
-  .margin-note.left  { left:  -310px; }
-}
-
-/* Mobile: notes become inline callouts */
-@media (max-width: 1099px) {
-  .margin-note {
-    position: static;
-    width: auto;
-    margin: 14px 0;
-    padding: 10px 12px;
-    border-left: 3px solid rgba(0,0,0,0.12);
-    background: rgba(0,0,0,0.03);
-  }
+/* Optional: if the margins are tight on some laptops, reduce widths */
+@media (max-width: 1350px) {
+  .margin-math { width: 16vw; min-width: 200px; }
 }
