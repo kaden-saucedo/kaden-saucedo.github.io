@@ -5,10 +5,6 @@ title: "Research"
 
 <aside class="margin-math margin-math-left">
   <strong>Sketch</strong><br>
-  \\[
-    \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
-  \\]
-
   $$
     \kappa_1 = \pi_*\big((K_{\pi}+B)^3\big)
   $$
