@@ -18,7 +18,7 @@
 
   /* Safety bounds for readability */
   --box-min: 220px;
-  --box-max: 360px;
+  --box-max: 576px;
 }
 
 /* Base styling shared by left and right boxes */
