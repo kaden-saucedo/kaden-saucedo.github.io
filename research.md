@@ -4,7 +4,7 @@ title: "Research"
 ---
 
 <aside class="margin-math margin-math-left">
-  <strong>Definition for a pair $(X,\mathcal B)$:</strong><br>
+  <strong>Definition of $\kappa_0$ for a pair $(X,\mathcal B)$:</strong><br>
   $$
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
