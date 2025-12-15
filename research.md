@@ -4,12 +4,19 @@ title: "Research"
 ---
 
 <aside class="margin-math margin-math-left">
-  <strong>Definition for a pair $$(X,\mathcal B)$$:</strong><br>
+  <strong>Definition for a pair $(X,\mathcal B)$:</strong><br>
   $$
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
   <hr>
-  We compute some small examples below: 
+  We compute some small examples below: <br>
+  $$
+  \begin{align*}
+  \kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
+  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
+  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
+  \end{align*}
+  $$
 </aside>
 
 # **Research**
@@ -34,14 +41,6 @@ $$
 &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
 &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
 \end{align*}
-$$
-
-$$ 
-\\begin{align*}
-\kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
-&=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
-&=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
-\\end{align*}
 $$
 
 ---
