@@ -49,3 +49,5 @@ Although my primary focus is currently on the degree \(4\) case, I am broadly in
 <p align="center">
   <img src="/assets/img/group-chalkboard.JPG" alt="UGA math group" style="width:80%; border-radius:10px;">
 <p/>
+
+</div>
