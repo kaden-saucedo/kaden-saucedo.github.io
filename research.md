@@ -3,18 +3,9 @@ layout: default
 title: "Research"
 ---
 
-<div class="margin-wrap">
-
 # **Research**
 
 My research focuses on moduli spaces of surfaces, especially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
-
-<aside class="margin-note right" style="top: 120px;">
-  <span class="label">scratch</span>
-  \(\kappa_0=\pi_*(K_{\mathcal X/S}+B)^2\).  
-  For a smooth quartic dP: \(B=\sum_{i=1}^{16}L_i\),  
-  \((K_S+B)^2=36\).
-</aside>
 
 I am particularly interested in:
 
@@ -31,12 +22,6 @@ Some guiding questions for my work include:
 ---
 
 ## **Current Project**
-
-<aside class="margin-note left" style="top: 740px;">
-  <span class="label">check</span>
-  Weighted wall-crossing changes the *universal family* even if the coarse space is unchanged.  
-  Track \(\kappa_i\) via pushforward under the birational map.
-</aside>
 
 ### *Kappa Classes on Moduli of Stable Marked Degree 4 del Pezzo Surfaces*  
 _In preparation (expected 2025)_
