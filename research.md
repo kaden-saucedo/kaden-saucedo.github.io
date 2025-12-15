@@ -19,9 +19,11 @@ Some guiding questions for my work include:
 - Do tautological classes such as the $$\kappa$$-classes satisfy **nice structural properties** on these moduli spaces—for instance, generating the Chow ring or enjoying functorial behavior under natural morphisms?
 - When we introduce **weights** (as in Hassett’s spaces for curves, or rational weights on boundary divisors for del Pezzo surfaces of fixed degree), how do the $$\kappa$$-classes **change under wall-crossing** between chambers?
 
-\[
+$$$$
   \kappa_1=f_\ast\left((K_f+\mathcal B)^{\dim X+1}\right)
-\]
+$$$$
+
+$\kappa_1$ $$\kappa_1$$. 
 
 
 ---
