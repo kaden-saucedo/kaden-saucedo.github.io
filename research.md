@@ -1,6 +1,4 @@
-<div class="scratch-wrap">
-  <div class="scratch-main">
-    ---
+---
 layout: default
 title: "Research"
 ---
@@ -49,15 +47,3 @@ Although my primary focus is currently on the degree \(4\) case, I am broadly in
 <p align="center">
   <img src="/assets/img/group-chalkboard.JPG" alt="UGA math group" style="width:80%; border-radius:10px;">
 <p/>
-  </div>
-
-  <aside class="scratch-note right" data-anchor="kappa0">
-    <div class="scratch-title">scratch</div>
-    <div class="scratch-body">
-      Let $\pi:\mathcal X\to S$.  
-      $\kappa_0=\pi_*(K_{\mathcal X/S}+B)^2$.  
-      For a quartic dP: $(K_S+B)^2=36$.
-    </div>
-  </aside>
-</div>
-
