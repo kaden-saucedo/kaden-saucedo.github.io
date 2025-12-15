@@ -48,6 +48,7 @@ title: "Research"
         \hline
     \end{tabular}}
     \]
+  \end{itemize}
 </aside>
 
 # **Research**
