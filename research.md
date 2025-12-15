@@ -37,16 +37,19 @@ title: "Research"
     \]
     For instance, for $d=4$, $\kappa_0=4-2(16)+\frac{16^2}{4}=-28+64=36$. In a table,
     \[
-    \boxed{\begin{tabular}{|c||c|c|c|c|c|c|}
-        \hline 
-        $d$    & $6$ & $5$  & $4$  & $3$  & $2$  & $1$  \\
-        \hline 
-        $\ell(d)$ & $6$ & $10$ & $16$ & $27$ & $56$ & $240$\\
-        \hline
-        $\kappa_0(d)$ & $0$ & $5$ & $36$ & $192$ & $1458$ & $57121$ \\
-        \hline
-    \end{tabular}}
+    \boxed{
+    \begin{array}{|c||c|c|c|c|c|c|}
+    \hline
+    d & 6 & 5 & 4 & 3 & 2 & 1 \\
+    \hline
+    \ell(d) & 6 & 10 & 16 & 27 & 56 & 240 \\
+    \hline
+    \kappa_0(d) & 0 & 5 & 36 & 192 & 1458 & 57121 \\
+    \hline
+    \end{array}
+    }
     \]
+
 </aside>
 
 # **Research**
