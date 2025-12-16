@@ -9,7 +9,7 @@ title: "Research"
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
   <hr>
-  The $\kappa_0$ case is the most straightforward, as we can consider a generic fiber $(S,B)$ and identify that $\kappa_0=(K_S+B)^2$. We compute examples of families:<br>
+  The $\kappa_0$ case is the most straightforward, as we can consider a generic fiber $(S,B)$ and identify that $\kappa_0=(K_S+B)^2$. We compute examples of families: <br> <br>
 
   - Let $X$ denote a normal $k$-variety and consider the map $\pi:X\to \mathrm{Spec } k$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/\mathrm{Spec } k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/\mathrm{Spec }k}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
   
