@@ -93,11 +93,7 @@ title: "Research"
     \end{array}
     }
     \]
-
-</aside class="margin-math margin-math-right">
-
-<aside>
-  
+      
 </aside>
 
 # **Research**
