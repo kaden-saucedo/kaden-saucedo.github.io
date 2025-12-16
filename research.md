@@ -50,13 +50,23 @@ title: "Research"
     \end{aligned}
     $$
     Where $\alpha(d)$ is fixed regardless of the choice of the line $L$. To determine $\alpha(d)$, we observe that $\sum L_i$ is some multiple of $-K_S$, in fact precisely $-\alpha(d)K_S$. Thus to extract $\alpha(d)$, we see that 
-    \[
-    \left(\sum_{i=1}^{\ell(d)}L_i\right).(-K_S)=\alpha(d)(-K_S)^2\implies \ell(d)=\alpha(d)d.
-    \]
+    $$
+    \begin{aligned}
+    \left(\sum_{i=1}^{\ell(d)}L_i\right).(-K_S) & =\alpha(d)(-K_S)^2
+    \\
+    \implies \ell(d) & =\alpha(d)d.
+    \end{aligned}
+    $$
     In particular, $\alpha(d)=\ell(d)/d$ and $B^2=\ell(d)^2/d$. Then a direct computation yields the following result:
-    \[
-    \kappa_0=(K_S+B)^2=K_S^2+2K_SB+B^2=d-2\ell(d)+\frac{\ell(d)^2}{d}.
-    \]
+    $$
+    \begin{aligned}
+    \kappa_0 & =(K_S+B)^2
+    \\
+     & =K_S^2+2K_SB+B^2
+    \\
+     & =d-2\ell(d)+\frac{\ell(d)^2}{d}.
+    \end{aligned}
+    $$
     For instance, for $d=4$, $\kappa_0=4-2(16)+\frac{16^2}{4}=-28+64=36$. In a table,
     \[
     \boxed{
