@@ -25,7 +25,7 @@ title: "Research"
     \end{aligned}
     $$
 
-    Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$.
+    Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. <br>
     
   - Let $\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
     $$
