@@ -94,6 +94,10 @@ title: "Research"
     }
     \]
 
+</aside class="margin-math margin-math-right">
+
+<aside>
+  
 </aside>
 
 # **Research**
