@@ -16,3 +16,6 @@ You can download my current CV here:
   height="1000"
   style="border: 0;"
 ></iframe>
+ 
+<br> 
+Last updated: December 2025 
