@@ -5,7 +5,7 @@ title: "Contact"
 
 # **Contact**
 
-**Email:** kaden.saucedo@uga.edu  
+**Email:** Kaden dot Saucedo at uga dot edu  
 
 **Office:** Boyd Graduate Studies Research Center, Room 427E  
 Department of Mathematics  
