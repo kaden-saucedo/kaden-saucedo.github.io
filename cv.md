@@ -19,5 +19,6 @@ You can download my current CV here:
   ></iframe>
 </div>
 
+<br>
 
 Last Updated: December 2025
