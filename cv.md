@@ -1,17 +1,18 @@
 ---
-layout: default
-title: "CV"
+layout: page
+title: Curriculum Vitae
+permalink: /cv/
 ---
 
-# **Curriculum Vitae**
+You can download my current CV here:
 
-A current version of my CV will be available here soon.
+**[Download CV (PDF)](/assets/cv/Kaden_Saucedo_CV.pdf)**
 
-<!--
-Once you have a PDF in your repository, you can replace the text above with:
+<iframe 
+  src="/assets/cv/Kaden_Saucedo_CV.pdf"
+  width="100%"
+  height="900px"
+  style="border: none;">
+</iframe>
 
-My current CV is available here:  
-[Download CV (PDF)](/assets/KadenSaucedo_CV.pdf)
-
-and place the file at: assets/KadenSaucedo_CV.pdf
--->
+Last updated: December 2025
