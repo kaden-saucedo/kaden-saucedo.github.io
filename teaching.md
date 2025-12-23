@@ -29,7 +29,7 @@ I keep a running page of recommendations for succeeding in math courses and in c
 - **MATH 2250 – Calculus I**, University of Georgia  
   _Instructor of Record, Spring 2025_
   <br>
-  [Personal MATH2250 Page](/calc/)
+  [Personal MATH2250 Page](/calc1/)
 
 - **MATH 1113 – Precalculus**, University of Georgia  
   _Instructor of Record, Fall 2024_
