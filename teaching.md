@@ -9,10 +9,11 @@ title: "Teaching"
      alt="Teaching in front of a Chalkboard"
      style="float:left; width:225px; margin:0 15px 15px 0; border-radius:18px">
 
-I am currently an instructor and teaching assistant in the Department of Mathematics at the University of Georgia. I have taught both precalculus and calculus, and I enjoy helping students build a solid conceptual foundation that makes later courses in mathematics and the sciences more accessible.
+I am currently an instructor and teaching assistant in the Department of Mathematics at the University of Georgia.
 
-I value clear explanations, well-chosen examples, and a classroom environment where students feel comfortable asking questions and working through mistakes. My goal is to help students see mathematics as something coherent and understandable, rather than a collection of disconnected rules.
+I approach teaching mathematics with the goal of helping students think carefully, justify their ideas, and build confidence in their own reasoning. In my courses, I emphasize that mathematics is not just about getting the right answer, but about understanding why a method works and when it should be used. Algebra is an important tool in these courses, but I try to keep it in the background so that students can focus on the underlying concepts and learn to recognize them on their own. A course is successful, in my view, when students leave believing that they are capable of working through new problems independently, even when the material feels challenging.
 
+To support this, I structure my classes around active work and discussion rather than lecture. Students engage with new material before class, and class time is spent working through problems together, comparing approaches, and discussing why certain ideas apply. I encourage students to share incomplete thoughts, make guesses, and work through mistakes openly. Misunderstandings—especially misreading a problem or choosing the wrong approach—often lead to the most productive conversations and help clarify the structure of the material. In the classroom, I aim to be an active presence: listening to students’ ideas, asking guiding questions, and working through problems alongside them. I try to create an environment where students feel supported in struggling with difficult ideas and where persistence, careful reasoning, and honest engagement are valued more than quick answers.
 <br>
 
 ---
