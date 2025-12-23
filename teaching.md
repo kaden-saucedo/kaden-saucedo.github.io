@@ -16,6 +16,12 @@ I approach teaching mathematics with the goal of helping students think carefull
 To support this, I structure my classes around active work and discussion rather than lecture. Students engage with new material before class, and class time is spent working through problems together, comparing approaches, and discussing why certain ideas apply. I encourage students to share incomplete thoughts, make guesses, and work through mistakes openly. Misunderstandings, especially misreading a problem or choosing the wrong approach, often lead to the most productive conversations and help clarify the structure of the material. In the classroom, I aim to be an active presence: listening to students’ ideas, asking guiding questions, and working through problems alongside them. I try to create an environment where students feel supported in struggling with difficult ideas and where persistence, careful reasoning, and honest engagement are valued more than quick answers.
 <br>
 
+## Advice for students
+I keep a running page of recommendations for succeeding in math courses and in college more broadly.
+
+[Advice for Students](/advice/)
+
+
 ---
 
 ## **Courses as Instructor of Record**
@@ -30,7 +36,7 @@ To support this, I structure my classes around active work and discussion rather
 
 ## **Directed Reading Program**
 
-I have mentored two undergraduate students through UGA’s Directed Reading Program:
+I have mentored two undergraduate students through UGA’s Directed Reading Program (DRP):
 
 - **Spring 2025:** An introduction to **category theory**, focusing on basic categorical language and examples relevant to algebra and topology.
 - **Fall 2025:** An introduction to **algebraic surfaces**, emphasizing concrete examples and the geometry of blowups.
