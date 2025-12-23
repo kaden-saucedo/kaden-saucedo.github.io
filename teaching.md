@@ -36,7 +36,7 @@ I keep a running page of recommendations for succeeding in math courses and in c
 
 ## **Directed Reading Program**
 
-I have mentored two undergraduate students through UGA’s Directed Reading Program (DRP):
+I have mentored two undergraduate students through UGA’s [Directed Reading Program (DRP)](https://www.math.uga.edu/directed-reading-program):
 
 - **Spring 2025:** An introduction to **category theory**, focusing on basic categorical language and examples relevant to algebra and topology.
 - **Fall 2025:** An introduction to **algebraic surfaces**, emphasizing concrete examples and the geometry of blowups.
