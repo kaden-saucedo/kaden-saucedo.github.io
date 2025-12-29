@@ -1,0 +1,14 @@
+<header class="site-header" role="banner">
+  <div class="wrapper" style="display:flex; align-items:center; justify-content:space-between; gap:1rem;">
+    <div>
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title }}</a>
+    </div>
+
+    <div style="display:flex; align-items:center; gap:0.75rem;">
+      <button id="theme-toggle" class="theme-toggle" type="button" aria-pressed="false">
+        Dark mode
+      </button>
+      {% include nav.html %}
+    </div>
+  </div>
+</header>
