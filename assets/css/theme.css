@@ -8,6 +8,7 @@
   --surface: #f6f7f9;
   --border: #e5e7eb;
 
+  /* Light mode links (leave as-is, or change if you want UGA red in light mode too) */
   --link: #0b57d0;
   --link-hover: #063a8c;
 
@@ -21,27 +22,32 @@
   --shadow: rgba(0, 0, 0, 0.08);
 }
 
-/* Dark theme overrides */
+/* Dark theme overrides (UGA-focused) */
 html[data-theme="dark"] {
-  --bg: #0b0f17;
-  --text: #e5e7eb;
-  --muted-text: #9ca3af;
+  /* Backgrounds: dark neutral gray (not blue) */
+  --bg: #121212;
+  --surface: #1a1a1a;
+  --border: #2a2a2a;
 
-  --surface: #111827;
-  --border: #1f2937;
+  /* Text */
+  --text: #f5f5f5;
+  --muted-text: #b3b3b3;
 
-  --link: #93c5fd;       /* brighter, easier to read on dark backgrounds */
-  --link-hover: #bfdbfe; /* even brighter on hover */
+  /* Links: UGA red */
+  --link: #ba0c2f;        /* Bulldog Red */
+  --link-hover: #e63946;  /* lighter red on hover */
 
+  /* Header */
+  --header-bg: #121212;
+  --header-text: #f5f5f5;
 
-  --header-bg: #0b0f17;
-  --header-text: #e5e7eb;
+  /* Buttons */
+  --btn-bg: #1a1a1a;
+  --btn-text: #f5f5f5;
+  --btn-border: #333333;
 
-  --btn-bg: #111827;
-  --btn-text: #e5e7eb;
-  --btn-border: #374151;
-
-  --shadow: rgba(0, 0, 0, 0.35);
+  /* Shadows */
+  --shadow: rgba(0, 0, 0, 0.5);
 }
 
 /* Apply variables to the site */
@@ -131,3 +137,21 @@ html[data-theme="dark"] .menu-icon svg {
   fill: var(--header-text);
 }
 
+/* ============================
+   UGA dark-mode link readability
+   ============================ */
+
+html[data-theme="dark"] a {
+  text-decoration: underline;
+  text-decoration-color: rgba(186, 12, 47, 0.5);
+  text-underline-offset: 0.18em;
+}
+
+html[data-theme="dark"] a:hover {
+  text-decoration-color: rgba(230, 57, 70, 0.85);
+}
+
+/* Optional: subtle UGA accent line in header */
+html[data-theme="dark"] .site-header {
+  border-bottom: 1px solid rgba(186, 12, 47, 0.25);
+}
