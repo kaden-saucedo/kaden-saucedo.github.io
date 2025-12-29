@@ -1,11 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+  <head>
     <meta charset="UTF-8">
-    <title>{{ page.title }}</title>
 
-    {% include math.html %}
+    <!-- Better title fallback -->
+    <title>
+      {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
+    </title>
+
+    <!-- Load your global CSS/JS (theme, margins, style, toggle, etc.) -->
+    {% include head-custom.html %}
+
+    <!-- MathJax only when requested -->
+    {% if page.math %}
+      {% include math.html %}
+    {% endif %}
   </head>
+
   <body>
     {{ content }}
   </body>
