@@ -3,18 +3,11 @@
   <head>
     <meta charset="UTF-8">
 
-    <!-- Better title fallback -->
     <title>
       {% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}
     </title>
 
-    <!-- Load your global CSS/JS (theme, margins, style, toggle, etc.) -->
-    {% include head-custom.html %}
-
-    <!-- MathJax only when requested -->
-    {% if page.math %}
-      {% include math.html %}
-    {% endif %}
+    {% include custom-head.html %}
   </head>
 
   <body>
