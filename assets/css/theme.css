@@ -163,22 +163,40 @@ hr {
 .theme-toggle {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: center;
 
-  padding: 0.45rem 0.7rem;
+  width: 42px;
+  height: 36px;
+
   border-radius: 999px;
-
   background: var(--btn-bg);
   color: var(--btn-text);
   border: 1px solid var(--btn-border);
-  box-shadow: 0 1px 8px var(--shadow);
+  box-shadow: 0 1px 10px var(--shadow);
 
-  font-size: 0.95rem;
-  line-height: 1;
   cursor: pointer;
+  user-select: none;
 }
 
-.theme-toggle:focus {
-  outline: 2px solid var(--link);
-  outline-offset: 2px;
+.theme-toggle__icon {
+  display: inline-flex;
+  align-items: center;
+}
+
+.icon-sun { display: none; }
+.icon-moon { display: inline-block; }
+
+html[data-theme="dark"] .icon-sun { display: inline-block; }
+html[data-theme="dark"] .icon-moon { display: none; }
+
+/* Placement tweaks */
+.theme-toggle--in-header {
+  margin-left: 0.75rem;
+}
+
+.theme-toggle--floating {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 9999;
 }
