@@ -30,8 +30,9 @@ html[data-theme="dark"] {
   --surface: #111827;
   --border: #1f2937;
 
-  --link: #7aa2ff;
-  --link-hover: #a5c0ff;
+  --link: #93c5fd;       /* brighter, easier to read on dark backgrounds */
+  --link-hover: #bfdbfe; /* even brighter on hover */
+
 
   --header-bg: #0b0f17;
   --header-text: #e5e7eb;
