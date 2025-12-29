@@ -1,11 +1,11 @@
 /* Base (light) theme variables */
 :root {
-  color-scheme: light dark; /* lets form controls render appropriately */
+  color-scheme: light dark;
   --bg: #ffffff;
   --text: #111111;
   --muted-text: #4b5563;
 
-  --surface: #f6f7f9;      /* cards/code blocks */
+  --surface: #f6f7f9;
   --border: #e5e7eb;
 
   --link: #0b57d0;
@@ -55,14 +55,9 @@ body {
   border-bottom: 1px solid var(--border);
 }
 
-a {
-  color: var(--link);
-}
-a:hover {
-  color: var(--link-hover);
-}
+a { color: var(--link); }
+a:hover { color: var(--link-hover); }
 
-/* Make common blocks look good */
 pre, code, .highlight {
   background: var(--surface);
   border: 1px solid var(--border);
@@ -73,88 +68,6 @@ hr {
   border-top: 1px solid var(--border);
 }
 
-/* Optional: nicer card-like feel for wrappers often used by Minima */
-.page-content, .post-content {
-  color: var(--text);
-}
-
-/* Toggle button styling */
-/* Base (light) theme variables */
-:root {
-  color-scheme: light dark; /* lets form controls render appropriately */
-  --bg: #ffffff;
-  --text: #111111;
-  --muted-text: #4b5563;
-
-  --surface: #f6f7f9;      /* cards/code blocks */
-  --border: #e5e7eb;
-
-  --link: #0b57d0;
-  --link-hover: #063a8c;
-
-  --header-bg: #ffffff;
-  --header-text: #111111;
-
-  --btn-bg: #f3f4f6;
-  --btn-text: #111111;
-  --btn-border: #d1d5db;
-
-  --shadow: rgba(0, 0, 0, 0.08);
-}
-
-/* Dark theme overrides */
-html[data-theme="dark"] {
-  --bg: #0b0f17;
-  --text: #e5e7eb;
-  --muted-text: #9ca3af;
-
-  --surface: #111827;
-  --border: #1f2937;
-
-  --link: #7aa2ff;
-  --link-hover: #a5c0ff;
-
-  --header-bg: #0b0f17;
-  --header-text: #e5e7eb;
-
-  --btn-bg: #111827;
-  --btn-text: #e5e7eb;
-  --btn-border: #374151;
-
-  --shadow: rgba(0, 0, 0, 0.35);
-}
-
-/* Apply variables to the site */
-body {
-  background: var(--bg);
-  color: var(--text);
-}
-
-.site-header {
-  background: var(--header-bg);
-  color: var(--header-text);
-  border-bottom: 1px solid var(--border);
-}
-
-a {
-  color: var(--link);
-}
-a:hover {
-  color: var(--link-hover);
-}
-
-/* Make common blocks look good */
-pre, code, .highlight {
-  background: var(--surface);
-  border: 1px solid var(--border);
-}
-
-hr {
-  border: 0;
-  border-top: 1px solid var(--border);
-}
-
-/* Optional: nicer card-like feel for wrappers often used by Minima */
 .page-content, .post-content {
   color: var(--text);
 }
@@ -188,11 +101,6 @@ hr {
 
 html[data-theme="dark"] .icon-sun { display: inline-block; }
 html[data-theme="dark"] .icon-moon { display: none; }
-
-/* Placement tweaks */
-.theme-toggle--in-header {
-  margin-left: 0.75rem;
-}
 
 .theme-toggle--floating {
   position: fixed;
