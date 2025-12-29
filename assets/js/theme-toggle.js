@@ -23,10 +23,10 @@
   function buildButton() {
     const btn = document.createElement("button");
     btn.id = BUTTON_ID;
-    btn.className = "theme-toggle";
     btn.type = "button";
-    btn.setAttribute("aria-pressed", "false");
+    btn.className = "theme-toggle theme-toggle--floating";
     btn.setAttribute("aria-label", "Toggle dark mode");
+    btn.setAttribute("aria-pressed", "false");
 
     btn.innerHTML = `
       <span class="theme-toggle__icon" aria-hidden="true">
@@ -44,22 +44,15 @@
     return btn;
   }
 
-  function mountButton() {
-    // Try to place it neatly in the existing Minima header area
-    const headerWrapper =
-      document.querySelector(".site-header .wrapper") ||
-      document.querySelector(".site-header") ||
-      null;
+  // Apply theme immediately
+  applyTheme(getTheme());
 
-    const btn = buildButton();
+  document.addEventListener("DOMContentLoaded", function () {
+    // If a button already exists, just wire it.
+    let btn = document.getElementById(BUTTON_ID);
 
-    if (headerWrapper) {
-      // Place at the end of the header wrapper
-      btn.classList.add("theme-toggle--in-header");
-      headerWrapper.appendChild(btn);
-    } else {
-      // Fallback: floating button if header structure is unexpected
-      btn.classList.add("theme-toggle--floating");
+    if (!btn) {
+      btn = buildButton();
       document.body.appendChild(btn);
     }
 
@@ -67,13 +60,9 @@
       const current = document.documentElement.getAttribute("data-theme") || "light";
       applyTheme(current === "dark" ? "light" : "dark");
     });
-  }
 
-  // Apply theme early
-  applyTheme(getTheme());
-
-  document.addEventListener("DOMContentLoaded", function () {
-    // Avoid duplicating if user added their own button later
-    if (!document.getElementById(BUTTON_ID)) mountButton();
+    // Ensure aria-pressed is consistent
+    const currentTheme = document.documentElement.getAttribute("data-theme") || "light";
+    btn.setAttribute("aria-pressed", String(currentTheme === "dark"));
   });
 })();
