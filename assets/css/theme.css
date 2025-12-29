@@ -155,3 +155,19 @@ html[data-theme="dark"] a:hover {
 html[data-theme="dark"] .site-header {
   border-bottom: 1px solid rgba(186, 12, 47, 0.25);
 }
+
+/* ============================
+   Force UGA red for links in dark mode
+   ============================ */
+
+html[data-theme="dark"] a,
+html[data-theme="dark"] .page-content a,
+html[data-theme="dark"] .post-content a {
+  color: var(--link) !important;
+}
+
+html[data-theme="dark"] a:hover,
+html[data-theme="dark"] .page-content a:hover,
+html[data-theme="dark"] .post-content a:hover {
+  color: var(--link-hover) !important;
+}
