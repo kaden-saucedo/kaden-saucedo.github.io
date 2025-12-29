@@ -157,16 +157,16 @@ html[data-theme="dark"] .site-header {
 }
 
 /* ============================
-   Force UGA red for links in dark mode
+   Force UGA red for CONTENT links only (not header/nav)
    ============================ */
 
-html[data-theme="dark"] a,
+html[data-theme="dark"] main a,
 html[data-theme="dark"] .page-content a,
 html[data-theme="dark"] .post-content a {
   color: var(--link) !important;
 }
 
-html[data-theme="dark"] a:hover,
+html[data-theme="dark"] main a:hover,
 html[data-theme="dark"] .page-content a:hover,
 html[data-theme="dark"] .post-content a:hover {
   color: var(--link-hover) !important;
