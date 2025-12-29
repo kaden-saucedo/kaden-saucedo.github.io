@@ -108,3 +108,25 @@ html[data-theme="dark"] .icon-moon { display: none; }
   bottom: 16px;
   z-index: 9999;
 }
+
+/* ============================
+   Header fixes for dark mode
+   ============================ */
+
+html[data-theme="dark"] .site-header,
+html[data-theme="dark"] .site-header a,
+html[data-theme="dark"] .site-title,
+html[data-theme="dark"] .page-link {
+  color: var(--header-text);
+}
+
+html[data-theme="dark"] .page-link:hover,
+html[data-theme="dark"] .site-title:hover {
+  color: var(--link-hover);
+}
+
+/* Hamburger (mobile) icon */
+html[data-theme="dark"] .menu-icon svg {
+  fill: var(--header-text);
+}
+
