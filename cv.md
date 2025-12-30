@@ -1,5 +1,5 @@
 ---
-layout: math
+layout: default
 title: CV
 permalink: /cv/
 ---
