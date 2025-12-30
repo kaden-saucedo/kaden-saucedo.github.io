@@ -102,7 +102,7 @@ My research focuses on moduli spaces of surfaces, Specially quartic del Pezzo su
 
 I am particularly interested in:
 
-- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, e	ext{Spec}ially del Pezzo surfaces.
+- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, especially del Pezzo surfaces.
 - **Tautological classes on moduli spaces:** in particular the $$\kappa$$-classes, their intersection theory, and their role in the structure of the Chow ring.
 - **Del Pezzo surfaces and their degenerations:** understanding how del Pezzo surfaces fit into KSBA compactifications and how their degenerations are reflected in boundary strata.
 
