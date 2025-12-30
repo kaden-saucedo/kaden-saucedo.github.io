@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 ---
 
-You can download my current CV here:1234 
+You can download my current CV here: 
 
 **[Download CV (PDF)](/assets/cv/Kaden_Saucedo_CV.pdf)**
 
