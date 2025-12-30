@@ -113,11 +113,11 @@ Some guiding questions for my work include:
 - When we introduce **weights** (as in Hassett’s spaces for curves, or rational weights on boundary divisors for del Pezzo surfaces of fixed degree), how do the $$\kappa$$-classes **change under wall-crossing** between chambers?
 
 $$
-\begin{align*}
-\kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
-&=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
-&=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
-\end{align*}
+\begin{aligned}
+  \kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
+  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
+  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
+\end{aligned}
 $$
 
 ---
