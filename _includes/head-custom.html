@@ -1,8 +1,12 @@
+<!-- Custom CSS -->
 <link rel="stylesheet" href="{{ "/assets/css/margins.css" | relative_url }}">
-<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}">
-<link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/theme.css"   | relative_url }}">
+<link rel="stylesheet" href="{{ "/assets/css/style.css"   | relative_url }}">
+
+<!-- Theme toggle JS -->
 <script src="{{ "/assets/js/theme-toggle.js" | relative_url }}" defer></script>
 
-{% if page.math %}
+<!-- MathJax only on math-enabled pages -->
+{% if page.math or page.layout == "math" %}
   {% include math.html %}
 {% endif %}
