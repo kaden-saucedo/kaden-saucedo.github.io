@@ -4,7 +4,7 @@ title: "Research"
 ---
 
 <aside class="margin-math margin-math-left">
-  <strong>Definition of $\kappa_0$ for a pair $(X,\mathcal B)$:</strong><br>
+  <strong>Definition of $\kappa_0$ for a family $(X,\mathcal B)\rightarrow Y$:</strong><br>
   $$
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
@@ -98,11 +98,11 @@ title: "Research"
 
 # **Research**
 
-My research focuses on moduli spaces of surfaces, Specially quartic del Pezzo surfaces and their weighted variants. I am currently working on κ-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
+My research focuses on moduli spaces of surfaces, especially del Pezzo surfaces and their weighted variants. I am currently working on $$\kappa$$-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
 
 I am particularly interested in:
 
-- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, especially del Pezzo surfaces.
+- **KSBA moduli of surfaces:** compactified moduli spaces of well-behaved surface pairs, especially marked del Pezzo surfaces.
 - **Tautological classes on moduli spaces:** in particular the $$\kappa$$-classes, their intersection theory, and their role in the structure of the Chow ring.
 - **Del Pezzo surfaces and their degenerations:** understanding how del Pezzo surfaces fit into KSBA compactifications and how their degenerations are reflected in boundary strata.
 
@@ -112,25 +112,17 @@ Some guiding questions for my work include:
 - Do tautological classes such as the $$\kappa$$-classes satisfy **nice structural properties** on these moduli spaces—for instance, generating the Chow ring or enjoying functorial behavior under natural morphisms?
 - When we introduce **weights** (as in Hassett’s spaces for curves, or rational weights on boundary divisors for del Pezzo surfaces of fixed degree), how do the $$\kappa$$-classes **change under wall-crossing** between chambers?
 
-$$
-\begin{aligned}
-  \kappa_1 &= \pi_*\big((K_{\pi}+B)^3\big)\\
-  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2+B^3\big)\\
-  &=\pi_*\big( K_{\pi}^3+3K_{\pi}^2B+3K_{\pi}B^2\big)
-\end{aligned}
-$$
-
 ---
 
 ## **Current Project**
 
 ### *Kappa Classes on Moduli of Stable Marked Degree 4 del Pezzo Surfaces*  
-_In preparation (expected 2025)_
+_In preparation (expected 2026)_
 
-This project studies the tautological $$\kappa$$-classes on the moduli space of stable marked degree $$4$$ del Pezzo surfaces in the KSBA sense. The main goals are:
+This project studies the $$\kappa$$-classes on the moduli space of stable marked degree $$4$$ del Pezzo surfaces in the KSBA sense. The main goals are:
 
-- to **compute the $$\kappa$$-classes** on this moduli space and show that they satisfy properties analogous to those of $$\kappa$$-classes on the moduli space of stable curves of genus zero with marked points, and  
-- to show that these $$\kappa$$-classes **generate the Chow ring** (or an appropriate tautological subring) of the moduli space.
+- to **compute the $$\kappa$$-classes** on this moduli space and determine if they satisfy properties analogous to those of $$\kappa$$-classes on the moduli space of stable curves of genus zero with marked points, and  
+- to determine what these $$\kappa$$-classes **generate in the Chow ring** of the moduli space.
 
 In addition, I investigate the **intersection theory** of these $$\kappa$$-classes, computing their intersections inside the Chow ring. A further direction considers **weighted** stable marked degree $$4$$ del Pezzo surfaces, in which rational weights are placed on boundary components. In this setting, I study how the $$\kappa$$-classes transform as one crosses walls in the space of weights, in analogy with wall-crossing phenomena for Hassett’s moduli spaces of weighted pointed curves.
 
@@ -141,8 +133,9 @@ In addition, I investigate the **intersection theory** of these $$\kappa$$-class
 Although my primary focus is currently on the degree $$4$$ case, I am broadly interested in extending these questions to:
 
 - other degrees of del Pezzo surfaces,
-- other classes of surfaces amenable to KSBA compactifications, and
-- comparisons between the behavior of $$\kappa$$-classes on moduli of surfaces and on moduli of curves.
+- other classes of surfaces amenable to KSBA compactifications,
+- comparisons between the behavior of $$\kappa$$-classes on moduli of surfaces and on moduli of curves, and
+- finding an appropriate analogue to $$\psi$$-classes on moduli of marked curves to the moduli of surfaces.
 
 <p align="center">
   <img src="/assets/img/group-chalkboard.JPG" alt="UGA math group" style="width:80%; border-radius:10px;">
