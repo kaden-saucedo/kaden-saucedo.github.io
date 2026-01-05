@@ -138,6 +138,39 @@ html[data-theme="dark"] .menu-icon svg {
 }
 
 /* ============================
+   Minima mobile nav: hamburger + dropdown in dark mode
+   ============================ */
+
+html[data-theme="dark"] .site-nav .menu-icon {
+  color: var(--header-text);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 10px;
+}
+
+html[data-theme="dark"] .site-nav .menu-icon svg,
+html[data-theme="dark"] .site-nav .menu-icon svg path {
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
+
+/* The opened mobile dropdown panel */
+html[data-theme="dark"] .site-nav .trigger {
+  background: var(--header-bg);
+  border: 1px solid var(--border);
+  box-shadow: 0 10px 30px var(--shadow);
+}
+
+/* Links inside the dropdown */
+html[data-theme="dark"] .site-nav .trigger a.page-link {
+  color: var(--header-text);
+}
+
+html[data-theme="dark"] .site-nav .trigger a.page-link:hover {
+  color: var(--link-hover);
+}
+
+/* ============================
    UGA dark-mode link readability
    ============================ */
 
