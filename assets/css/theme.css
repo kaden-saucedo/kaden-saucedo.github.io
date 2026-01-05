@@ -1,6 +1,11 @@
+/* ============================
+   Theme variables
+   ============================ */
+
 /* Base (light) theme variables */
 :root {
   color-scheme: light dark;
+
   --bg: #ffffff;
   --text: #111111;
   --muted-text: #4b5563;
@@ -8,7 +13,7 @@
   --surface: #f6f7f9;
   --border: #e5e7eb;
 
-  /* Light mode links (leave as-is, or change if you want UGA red in light mode too) */
+  /* Light mode links */
   --link: #0b57d0;
   --link-hover: #063a8c;
 
@@ -24,7 +29,7 @@
 
 /* Dark theme overrides (UGA-focused) */
 html[data-theme="dark"] {
-  /* Backgrounds: dark neutral gray (not blue) */
+  /* Backgrounds */
   --bg: #121212;
   --surface: #1a1a1a;
   --border: #2a2a2a;
@@ -34,8 +39,8 @@ html[data-theme="dark"] {
   --muted-text: #b3b3b3;
 
   /* Links: UGA red */
-  --link: #ba0c2f;        /* Bulldog Red */
-  --link-hover: #e63946;  /* lighter red on hover */
+  --link: #ba0c2f;
+  --link-hover: #e63946;
 
   /* Header */
   --header-bg: #121212;
@@ -50,7 +55,10 @@ html[data-theme="dark"] {
   --shadow: rgba(0, 0, 0, 0.5);
 }
 
-/* Apply variables to the site */
+/* ============================
+   Apply variables globally
+   ============================ */
+
 body {
   background: var(--bg);
   color: var(--text);
@@ -79,7 +87,10 @@ hr {
   color: var(--text);
 }
 
-/* Toggle button styling */
+/* ============================
+   Theme toggle button
+   ============================ */
+
 .theme-toggle {
   display: inline-flex;
   align-items: center;
@@ -96,6 +107,8 @@ hr {
 
   cursor: pointer;
   user-select: none;
+
+  -webkit-tap-highlight-color: transparent;
 }
 
 .theme-toggle__icon {
@@ -117,61 +130,105 @@ html[data-theme="dark"] .icon-moon { display: none; }
 }
 
 /* ============================
-   Header fixes for dark mode
+   Header/nav text in dark mode
+   Keep header readable, but do not globally rewrite all .page-link everywhere.
    ============================ */
 
 html[data-theme="dark"] .site-header,
 html[data-theme="dark"] .site-header a,
-html[data-theme="dark"] .site-title,
-html[data-theme="dark"] .page-link {
+html[data-theme="dark"] .site-title {
   color: var(--header-text);
 }
 
-html[data-theme="dark"] .page-link:hover,
+html[data-theme="dark"] .site-header .page-link {
+  color: var(--header-text);
+}
+
+html[data-theme="dark"] .site-header .page-link:hover,
 html[data-theme="dark"] .site-title:hover {
   color: var(--link-hover);
 }
 
-/* Hamburger (mobile) icon */
-html[data-theme="dark"] .menu-icon svg {
-  fill: var(--header-text);
+/* Optional: subtle UGA accent line in header (dark mode) */
+html[data-theme="dark"] .site-header {
+  border-bottom: 1px solid rgba(186, 12, 47, 0.25);
 }
 
 /* ============================
-   Minima mobile nav: hamburger + dropdown in dark mode
+   Minima mobile nav overlay + MathJax stacking
+   - Fix overlay stacking so MathJax cannot appear above menu
+   - Fix light-mode transparency by styling trigger panel in all themes
    ============================ */
 
-html[data-theme="dark"] .site-nav .menu-icon {
-  color: var(--header-text);
-  background: transparent;
-  border: 1px solid var(--border);
-  border-radius: 10px;
+.site-header,
+.site-nav {
+  position: relative;
+  z-index: 10000;
 }
 
-html[data-theme="dark"] .site-nav .menu-icon svg,
-html[data-theme="dark"] .site-nav .menu-icon svg path {
+/* Hamburger button styling (all themes) + iOS cleanup */
+.site-nav .menu-icon {
+  color: var(--header-text);
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.site-nav .menu-icon:focus,
+.site-nav .menu-icon:focus-visible,
+.site-nav .menu-icon:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Ensure hamburger SVG inherits currentColor */
+.site-nav .menu-icon svg,
+.site-nav .menu-icon svg * {
   fill: currentColor !important;
   stroke: currentColor !important;
 }
 
-/* The opened mobile dropdown panel */
-html[data-theme="dark"] .site-nav .trigger {
-  background: var(--header-bg);
-  border: 1px solid var(--border);
-  box-shadow: 0 10px 30px var(--shadow);
+/* Mobile dropdown behavior */
+@media screen and (max-width: 600px) {
+  .site-nav {
+    position: relative;
+    z-index: 10001;
+  }
+
+  .site-nav .trigger {
+    position: absolute;
+    right: 0;
+    top: 44px;
+    z-index: 10002;
+
+    /* Panel styling for BOTH themes (fixes light-mode transparency) */
+    background: var(--header-bg);
+    border: 1px solid var(--border);
+    box-shadow: 0 10px 30px var(--shadow);
+    border-radius: 12px;
+    padding: 10px 12px;
+    min-width: 180px;
+  }
+
+  .site-nav .trigger a.page-link {
+    display: block;
+    padding: 10px 8px;
+    text-decoration: none;
+  }
 }
 
-/* Links inside the dropdown */
-html[data-theme="dark"] .site-nav .trigger a.page-link {
-  color: var(--header-text);
-}
-
-html[data-theme="dark"] .site-nav .trigger a.page-link:hover {
-  color: var(--link-hover);
+/* Extra hardening: keep MathJax from creating higher stacking contexts */
+mjx-container {
+  position: relative;
+  z-index: 0;
 }
 
 /* ============================
-   UGA dark-mode link readability
+   UGA dark-mode link readability (global)
    ============================ */
 
 html[data-theme="dark"] a {
@@ -182,73 +239,6 @@ html[data-theme="dark"] a {
 
 html[data-theme="dark"] a:hover {
   text-decoration-color: rgba(230, 57, 70, 0.85);
-}
-
-/* Optional: subtle UGA accent line in header */
-html[data-theme="dark"] .site-header {
-  border-bottom: 1px solid rgba(186, 12, 47, 0.25);
-}
-
-/* ============================
-   Minima mobile nav (hamburger + dropdown) fixes
-   - Fix hamburger colors in dark mode
-   - Ensure dropdown overlays MathJax (no "piercing")
-   ============================ */
-
-/* Ensure header/nav sits above page content */
-.site-header,
-.site-nav {
-  position: relative;
-  z-index: 10000;
-}
-
-/* Mobile-specific behavior */
-@media screen and (max-width: 600px) {
-  /* Make dropdown an overlay (not part of normal flow) and keep it above everything */
-  .site-nav {
-    position: relative;
-    z-index: 10001;
-  }
-
-  .site-nav .trigger {
-    position: absolute;
-    right: 0;
-    top: 44px;            /* tweak if needed; aligns below the hamburger */
-    z-index: 10002;
-  }
-}
-
-/* DARK MODE: hamburger button styling */
-html[data-theme="dark"] .site-nav .menu-icon {
-  color: var(--header-text) !important;
-  background: var(--surface) !important;
-  border: 1px solid var(--border) !important;
-  border-radius: 10px;
-}
-
-/* Force the hamburger glyph (SVG) to inherit color reliably */
-html[data-theme="dark"] .site-nav .menu-icon svg,
-html[data-theme="dark"] .site-nav .menu-icon svg * {
-  fill: currentColor !important;
-  stroke: currentColor !important;
-}
-
-/* DARK MODE: dropdown panel styling */
-html[data-theme="dark"] .site-nav .trigger {
-  background: var(--header-bg) !important;
-  border: 1px solid var(--border) !important;
-  box-shadow: 0 10px 30px var(--shadow);
-  border-radius: 12px;
-  padding: 10px 12px;
-}
-
-/* DARK MODE: dropdown links */
-html[data-theme="dark"] .site-nav .trigger a.page-link {
-  color: var(--header-text) !important;
-}
-
-html[data-theme="dark"] .site-nav .trigger a.page-link:hover {
-  color: var(--link-hover) !important;
 }
 
 /* ============================
