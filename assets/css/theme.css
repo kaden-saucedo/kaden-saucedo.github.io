@@ -266,25 +266,3 @@ html[data-theme="dark"] .page-content a:hover,
 html[data-theme="dark"] .post-content a:hover {
   color: var(--link-hover) !important;
 }
-
-/* ============================
-   Remove iOS/Safari tap highlight & default button box
-   ============================ */
-
-/* Hamburger button: remove native tap highlight / focus box */
-.site-nav .menu-icon {
-  -webkit-tap-highlight-color: transparent;
-  background-clip: padding-box;
-}
-
-/* Remove Safari focus ring / inner glow */
-.site-nav .menu-icon:focus,
-.site-nav .menu-icon:focus-visible {
-  outline: none;
-  box-shadow: none;
-}
-
-/* Dark mode: ensure no light background leaks through */
-html[data-theme="dark"] .site-nav .menu-icon {
-  background: transparent !important;
-}
