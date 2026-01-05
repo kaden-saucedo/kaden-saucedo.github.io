@@ -190,6 +190,69 @@ html[data-theme="dark"] .site-header {
 }
 
 /* ============================
+   Minima mobile nav (hamburger + dropdown) fixes
+   - Fix hamburger colors in dark mode
+   - Ensure dropdown overlays MathJax (no "piercing")
+   ============================ */
+
+/* Ensure header/nav sits above page content */
+.site-header,
+.site-nav {
+  position: relative;
+  z-index: 10000;
+}
+
+/* Mobile-specific behavior */
+@media screen and (max-width: 600px) {
+  /* Make dropdown an overlay (not part of normal flow) and keep it above everything */
+  .site-nav {
+    position: relative;
+    z-index: 10001;
+  }
+
+  .site-nav .trigger {
+    position: absolute;
+    right: 0;
+    top: 44px;            /* tweak if needed; aligns below the hamburger */
+    z-index: 10002;
+  }
+}
+
+/* DARK MODE: hamburger button styling */
+html[data-theme="dark"] .site-nav .menu-icon {
+  color: var(--header-text) !important;
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 10px;
+}
+
+/* Force the hamburger glyph (SVG) to inherit color reliably */
+html[data-theme="dark"] .site-nav .menu-icon svg,
+html[data-theme="dark"] .site-nav .menu-icon svg * {
+  fill: currentColor !important;
+  stroke: currentColor !important;
+}
+
+/* DARK MODE: dropdown panel styling */
+html[data-theme="dark"] .site-nav .trigger {
+  background: var(--header-bg) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: 0 10px 30px var(--shadow);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+/* DARK MODE: dropdown links */
+html[data-theme="dark"] .site-nav .trigger a.page-link {
+  color: var(--header-text) !important;
+}
+
+html[data-theme="dark"] .site-nav .trigger a.page-link:hover {
+  color: var(--link-hover) !important;
+}
+
+
+/* ============================
    Force UGA red for CONTENT links only (not header/nav)
    ============================ */
 
