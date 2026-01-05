@@ -251,7 +251,6 @@ html[data-theme="dark"] .site-nav .trigger a.page-link:hover {
   color: var(--link-hover) !important;
 }
 
-
 /* ============================
    Force UGA red for CONTENT links only (not header/nav)
    ============================ */
@@ -266,4 +265,26 @@ html[data-theme="dark"] main a:hover,
 html[data-theme="dark"] .page-content a:hover,
 html[data-theme="dark"] .post-content a:hover {
   color: var(--link-hover) !important;
+}
+
+/* ============================
+   Remove iOS/Safari tap highlight * default button box
+   ============================ */
+
+/* Hamburger button: remove native tap highlight / foxus box */
+.site-nav .menu-icon {
+  -webkit-tap-highlight-color: transparent; 
+  background-clip: padding-box;
+}
+
+/* Remove Safar focus ring / inner glow */
+.site-nav .menu-icon:focus,
+.site-nav .menu-icon:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Dark mode: ensure no light background leaks through */
+html[data-theme="dark" .site-nav .menu-icon {
+  background: transparent !important; 
 }
