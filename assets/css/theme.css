@@ -211,7 +211,7 @@ html[data-theme="dark"] .site-header {
     box-shadow: 0 10px 30px var(--shadow);
     border-radius: 12px;
     padding: 10px 12px;
-    min-width: 180px;
+    min-width: 80px;
   }
 
   .site-nav .trigger a.page-link {
@@ -255,4 +255,32 @@ html[data-theme="dark"] main a:hover,
 html[data-theme="dark"] .page-content a:hover,
 html[data-theme="dark"] .post-content a:hover {
   color: var(--link-hover) !important;
+}
+
+/* ============================
+   Final hamburger cleanup (dark mode)
+   ============================ */
+
+html[data-theme="dark"] .site-nav .menu-icon {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: none !important;
+  outline: none !important;
+  filter: none !important;
+}
+
+/* Minima uses a <label class="menu-icon"> — hit that explicitly */
+html[data-theme="dark"] .site-nav label.menu-icon {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+/* iOS highlight/glow suppression */
+html[data-theme="dark"] .site-nav .menu-icon:focus,
+html[data-theme="dark"] .site-nav .menu-icon:focus-visible,
+html[data-theme="dark"] .site-nav .menu-icon:active {
+  outline: none !important;
+  box-shadow: none !important;
 }
