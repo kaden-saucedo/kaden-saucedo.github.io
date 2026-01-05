@@ -268,16 +268,16 @@ html[data-theme="dark"] .post-content a:hover {
 }
 
 /* ============================
-   Remove iOS/Safari tap highlight * default button box
+   Remove iOS/Safari tap highlight & default button box
    ============================ */
 
-/* Hamburger button: remove native tap highlight / foxus box */
+/* Hamburger button: remove native tap highlight / focus box */
 .site-nav .menu-icon {
-  -webkit-tap-highlight-color: transparent; 
+  -webkit-tap-highlight-color: transparent;
   background-clip: padding-box;
 }
 
-/* Remove Safar focus ring / inner glow */
+/* Remove Safari focus ring / inner glow */
 .site-nav .menu-icon:focus,
 .site-nav .menu-icon:focus-visible {
   outline: none;
@@ -285,6 +285,6 @@ html[data-theme="dark"] .post-content a:hover {
 }
 
 /* Dark mode: ensure no light background leaks through */
-html[data-theme="dark" .site-nav .menu-icon {
-  background: transparent !important; 
+html[data-theme="dark"] .site-nav .menu-icon {
+  background: transparent !important;
 }
