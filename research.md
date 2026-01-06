@@ -27,7 +27,7 @@ title: "Research"
 
     Then \(\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}\). <br>
     
-  - Let \(\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1\) denote a trivial family of a smooth surface \(X\) along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
+  - Let \(\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1\) denote a trivial family of a smooth surface \(X\) along with a universal boundary divisor \(\mathcal L\). In this case, it makes sense to consider \(\mathcal L\) a section to \(\pi\), but we will also consider boundary where \(\mathcal L\) is a fiber of \(\pi\) and when \(\mathcal L\) is a well-behaved diagonal. Recall, that to compute \(\kappa_0\), it is sufficient for us to compute the generic fiber. If \(\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)\), then 
     $$
     \begin{aligned}
     \kappa_0 & =\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)
@@ -113,42 +113,44 @@ title: "Research"
   >
     <!-- edges -->
     <g fill="none" stroke="currentColor" stroke-width="2.2" vector-effect="non-scaling-stroke">
-      <!-- outer pentagon -->
-      <line x1="100.0" y1="20.0"  x2="176.08" y2="75.28" />
-      <line x1="176.08" y1="75.28" x2="147.02" y2="164.72" />
-      <line x1="147.02" y1="164.72" x2="52.98"  y2="164.72" />
-      <line x1="52.98"  y1="164.72" x2="23.92"  y2="75.28" />
-      <line x1="23.92"  y1="75.28" x2="100.0" y2="20.0" />
 
-      <!-- inner pentagram -->
-      <line x1="120.57" y1="71.68" x2="100.0"  y2="135.0" />
-      <line x1="133.29" y1="110.82" x2="66.71" y2="110.82" />
-      <line x1="100.0"  y1="135.0"  x2="79.43" y2="71.68" />
-      <line x1="66.71"  y1="110.82" x2="120.57" y2="71.68" />
-      <line x1="79.43"  y1="71.68" x2="133.29" y2="110.82" />
+      <!-- outer pentagon (radius 80, center (100,100)) -->
+      <line x1="100.000" y1="20.000"  x2="176.085" y2="75.279" />
+      <line x1="176.085" y1="75.279" x2="147.023" y2="164.721" />
+      <line x1="147.023" y1="164.721" x2="52.977"  y2="164.721" />
+      <line x1="52.977"  y1="164.721" x2="23.915"  y2="75.279" />
+      <line x1="23.915"  y1="75.279" x2="100.000" y2="20.000" />
 
-      <!-- spokes -->
-      <line x1="100.0"  y1="20.0"  x2="120.57" y2="71.68" />
-      <line x1="176.08" y1="75.28" x2="133.29" y2="110.82" />
-      <line x1="147.02" y1="164.72" x2="100.0"  y2="135.0" />
-      <line x1="52.98"  y1="164.72" x2="66.71"  y2="110.82" />
-      <line x1="23.92"  y1="75.28" x2="79.43"  y2="71.68" />
+      <!-- inner pentagram vertices are COLLINEAR with the outer vertices (radius 35) -->
+      <!-- connect i -> i+2 (mod 5): 0-2, 2-4, 4-1, 1-3, 3-0 -->
+      <line x1="100.000" y1="65.000"  x2="120.572" y2="128.316" />
+      <line x1="120.572" y1="128.316" x2="66.713"  y2="89.184" />
+      <line x1="66.713"  y1="89.184"  x2="133.287" y2="89.184" />
+      <line x1="133.287" y1="89.184"  x2="79.428"  y2="128.316" />
+      <line x1="79.428"  y1="128.316" x2="100.000" y2="65.000" />
+
+      <!-- spokes: outer k -> inner k (collinear through the center) -->
+      <line x1="100.000" y1="20.000"  x2="100.000" y2="65.000" />
+      <line x1="176.085" y1="75.279" x2="133.287" y2="89.184" />
+      <line x1="147.023" y1="164.721" x2="120.572" y2="128.316" />
+      <line x1="52.977"  y1="164.721" x2="79.428"  y2="128.316" />
+      <line x1="23.915"  y1="75.279" x2="66.713"  y2="89.184" />
     </g>
 
     <!-- vertices -->
     <g fill="currentColor">
       <!-- outer -->
-      <circle cx="100.0"  cy="20.0"  r="3.2" />
-      <circle cx="176.08" cy="75.28" r="3.2" />
-      <circle cx="147.02" cy="164.72" r="3.2" />
-      <circle cx="52.98"  cy="164.72" r="3.2" />
-      <circle cx="23.92"  cy="75.28" r="3.2" />
+      <circle cx="100.000" cy="20.000"  r="3.2" />
+      <circle cx="176.085" cy="75.279" r="3.2" />
+      <circle cx="147.023" cy="164.721" r="3.2" />
+      <circle cx="52.977"  cy="164.721" r="3.2" />
+      <circle cx="23.915"  cy="75.279"  r="3.2" />
       <!-- inner -->
-      <circle cx="120.57" cy="71.68" r="3.2" />
-      <circle cx="133.29" cy="110.82" r="3.2" />
-      <circle cx="100.0"  cy="135.0"  r="3.2" />
-      <circle cx="66.71"  cy="110.82" r="3.2" />
-      <circle cx="79.43"  cy="71.68" r="3.2" />
+      <circle cx="100.000" cy="65.000"  r="3.2" />
+      <circle cx="133.287" cy="89.184" r="3.2" />
+      <circle cx="120.572" cy="128.316" r="3.2" />
+      <circle cx="79.428"  cy="128.316" r="3.2" />
+      <circle cx="66.713"  cy="89.184"  r="3.2" />
     </g>
   </svg>
 
