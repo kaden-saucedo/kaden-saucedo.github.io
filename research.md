@@ -37,7 +37,7 @@ title: "Research"
      & =\pi_\ast(K_X^2)+2\pi_\ast(K_XD)+\pi_\ast(D^2).
     \end{aligned}
     $$
-    If $\mathcal L$ is a section, then these pushforwards $\pi_\ast$ don't affect the result, giving us $\kappa_0=(K_X+D)^2$. If $\mathcal L$ is a fiber, however, then $\pi_\ast(D)=\pi_\ast(D^2)=0$, so that $\kappa_0=K_X^2$. Finally, let $X=\mathbb P^2$, and $\mathcal L=\mathcal O_{X\times\mathbb P^1}(aH,bL)$ be a diagonal of type $(a,b)$, where $H$ is a hyperplane class of $\mathbb P^2$ and $L$ is a hyperplane class of $\mathbb P^1$. Then $\mathcal L=a\rho^\ast(H)+b\pi^\ast(L)$, where $\rho:\mathbb P^2\times\mathbb P^1\to\mathbb P^2$ is the projection map. Then a direct computation yields the following result:
+    If \(\mathcal L\) is a section, then these pushforwards \(\pi_\ast\) don't affect the result, giving us \(\kappa_0=(K_X+D)^2\). If \(\mathcal L\) is a fiber, however, then \(\pi_\ast(D)=\pi_\ast(D^2)=0\), so that \(\kappa_0=K_X^2\). Finally, let \(X=\mathbb P^2\), and \(\mathcal L=\mathcal O_{X\times\mathbb P^1}(aH,bL)\) be a diagonal of type \((a,b)\), where \(H\) is a hyperplane class of \(\mathbb P^2\) and \(L\) is a hyperplane class of \(\mathbb P^1\). Then \(\mathcal L=a\rho^\ast(H)+b\pi^\ast(L)\), where \(\rho:\mathbb P^2\times\mathbb P^1\to\mathbb P^2\) is the projection map. Then a direct computation yields the following result:
     $$
     \begin{aligned}
     \kappa_0 & =\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)
@@ -49,7 +49,7 @@ title: "Research"
     $$
     Now, $\pi_\ast(\pi^\ast(L))=L$ and $L^2=0$, so we obtain $\kappa_0=(a-3)^2+2b(a-3)=(a-3)(a+2b-3)$. <br>
     
-  - We extend the previous case to where $X$ is a reducible variety. Let's take $X=V(xy)\subset\mathbb P^2$, and consider the same setup $\pi:X\times\mathbb P^1\to\mathbb P^1$. Since $X$ is a complete intersection of lines $X=V(x)\cup V(y)$, we have that $K_X=(K_{\mathbb P^2}+X)|_X=(-H)|_X=-(H|_X)$. To compute the degree of $K_X$, note that $H|_X$ is the degree of $X$ in $\mathbb P^2$, and since $X$ is a degenerate conic, we get $\deg K_X=-2$. Therefore $\kappa_0=\pi_\ast(K_X)=\deg(K_X)=-2.$ <br>
+  - We extend the previous case to where \(X\) is a reducible variety. Let's take \(X=V(xy)\subset\mathbb P^2\), and consider the same setup $\pi:X\times\mathbb P^1\to\mathbb P^1$. Since $X$ is a complete intersection of lines $X=V(x)\cup V(y)$, we have that $K_X=(K_{\mathbb P^2}+X)|_X=(-H)|_X=-(H|_X)$. To compute the degree of $K_X$, note that $H|_X$ is the degree of $X$ in $\mathbb P^2$, and since $X$ is a degenerate conic, we get $\deg K_X=-2$. Therefore $\kappa_0=\pi_\ast(K_X)=\deg(K_X)=-2.$ <br>
   
   - Let $X=\bar Y(E_d)$ denote the moduli of marked degree $9-d\le6$ del Pezzo surfaces, and $f:Y\to X$ be the universal family. The "marked" condition gives us a boundary divisor of the sum of the lines of the surface. That is, if $S$ is a general smooth surface, then $B=\sum L_i$ is the sum of lines of $S$. We can evaluate $B^2$ to be $\ell(d)^2/d$ in a straightforward computation: 
     $$
