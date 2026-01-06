@@ -9,11 +9,11 @@ title: "Research"
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
   $$
   <hr>
-  The \(\kappa_0\) case is the most straightforward, as we can consider a generic fiber $$(S,B)$$ and identify that $$\kappa_0=(K_S+B)^2$$. We compute examples of families: <br> <br>
+  The \(\kappa_0\) case is the most straightforward, as we can consider a generic fiber \((S,B)\) and identify that \(\kappa_0=(K_S+B)^2\). We compute examples of families: <br> <br>
 
-  - Let $$X$$ denote a normal $$k$$-variety and consider the map $$\pi:X\to \mathrm{Spec } k$$. This is the "family" parametrized by a single point. Without boundary, we have $\kappa_0=\pi_\ast (K_{X/\mathrm{Spec } k})^{\dim X}$, which identifies to $K_X^{\dim X}$. If $D$ is an identified boundary divisor, then $\kappa_0=\pi_\ast(K_{X/\mathrm{Spec }k}+D)^{\dim X}$, which is $(K_X+D)^{\dim X}$. <br>
+  - Let \(X\) denote a normal \(k\)-variety and consider the map \(\pi:X\to \mathrm{Spec} k\). This is the "family" parametrized by a single point. Without boundary, we have \(\kappa_0=\pi_\ast (K_{X/\mathrm{Spec } k})^{\dim X}\), which identifies to \(K_X^{\dim X}\). If \(D\) is an identified boundary divisor, then \(\kappa_0=\pi_\ast(K_{X/\mathrm{Spec }k}+D)^{\dim X}\), which is \((K_X+D)^{\dim X}\). <br>
   
-  - Let $\pi:X\times Y\to Y$ denote a trivial family of $X$ parametrized by $Y$. If we ignore the boundary, then $\kappa_0=(K_{X\times Y/Y})^{\dim X}$. Now,
+  - Let \(\pi:X\times Y\to Y\) denote a trivial family of \(X\) parametrized by \(Y\). If we ignore the boundary, then \(\kappa_0=(K_{X\times Y/Y})^{\dim X}\). Now,
   
     $$
     \begin{aligned}
@@ -25,9 +25,9 @@ title: "Research"
     \end{aligned}
     $$
 
-    Then $\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}$. <br>
+    Then \(\kappa_0=(K_{X\times Y/Y})^{\dim X}=(\rho^\ast(K_X))^{\dim X}=K_X^{\dim X}\). <br>
     
-  - Let $\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1$ denote a trivial family of a smooth surface $X$ along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
+  - Let \(\pi:(X\times\mathbb P^1,\mathcal L)\to\mathbb P^1\) denote a trivial family of a smooth surface \(X\) along with a universal boundary divisor $\mathcal L$. In this case, it makes sense to consider $\mathcal L$ a section to $\pi$, but we will also consider boundary where $\mathcal L$ is a fiber of $\pi$ and when $\mathcal L$ is a well-behaved diagonal. Recall, that to compute $\kappa_0$, it is sufficient for us to compute the generic fiber. If $\mathcal L=\mathcal O_{X\times\mathbb P^1}(D)$, then 
     $$
     \begin{aligned}
     \kappa_0 & =\pi_\ast((K_{X\times\mathbb P^1/\mathbb P^1}+D)^2)
@@ -103,13 +103,59 @@ title: "Research"
   $$
   <hr>
 
-  \[
-    \begin{CD}
-      A @>f>> B \\
-      @VgVV   @VVhV \\
-      C @>>k> D
-    \end{CD}
-  \]
+  <figure class="margin-figure petersen">
+  <svg
+    viewBox="0 0 200 200"
+    width="100%"
+    height="auto"
+    role="img"
+    aria-label="Petersen graph (incidence graph of the ten lines on a smooth quintic del Pezzo surface)"
+  >
+    <!-- edges -->
+    <g fill="none" stroke="currentColor" stroke-width="2.2" vector-effect="non-scaling-stroke">
+      <!-- outer pentagon -->
+      <line x1="100.0" y1="20.0"  x2="176.08" y2="75.28" />
+      <line x1="176.08" y1="75.28" x2="147.02" y2="164.72" />
+      <line x1="147.02" y1="164.72" x2="52.98"  y2="164.72" />
+      <line x1="52.98"  y1="164.72" x2="23.92"  y2="75.28" />
+      <line x1="23.92"  y1="75.28" x2="100.0" y2="20.0" />
+
+      <!-- inner pentagram -->
+      <line x1="120.57" y1="71.68" x2="100.0"  y2="135.0" />
+      <line x1="133.29" y1="110.82" x2="66.71" y2="110.82" />
+      <line x1="100.0"  y1="135.0"  x2="79.43" y2="71.68" />
+      <line x1="66.71"  y1="110.82" x2="120.57" y2="71.68" />
+      <line x1="79.43"  y1="71.68" x2="133.29" y2="110.82" />
+
+      <!-- spokes -->
+      <line x1="100.0"  y1="20.0"  x2="120.57" y2="71.68" />
+      <line x1="176.08" y1="75.28" x2="133.29" y2="110.82" />
+      <line x1="147.02" y1="164.72" x2="100.0"  y2="135.0" />
+      <line x1="52.98"  y1="164.72" x2="66.71"  y2="110.82" />
+      <line x1="23.92"  y1="75.28" x2="79.43"  y2="71.68" />
+    </g>
+
+    <!-- vertices -->
+    <g fill="currentColor">
+      <!-- outer -->
+      <circle cx="100.0"  cy="20.0"  r="3.2" />
+      <circle cx="176.08" cy="75.28" r="3.2" />
+      <circle cx="147.02" cy="164.72" r="3.2" />
+      <circle cx="52.98"  cy="164.72" r="3.2" />
+      <circle cx="23.92"  cy="75.28" r="3.2" />
+      <!-- inner -->
+      <circle cx="120.57" cy="71.68" r="3.2" />
+      <circle cx="133.29" cy="110.82" r="3.2" />
+      <circle cx="100.0"  cy="135.0"  r="3.2" />
+      <circle cx="66.71"  cy="110.82" r="3.2" />
+      <circle cx="79.43"  cy="71.68" r="3.2" />
+    </g>
+  </svg>
+
+  <figcaption class="margin-caption">
+    Incidence graph of the ten lines on a smooth quintic del Pezzo surface (the Petersen graph).
+  </figcaption>
+</figure>
 
 </aside>
 
