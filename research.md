@@ -96,6 +96,23 @@ title: "Research"
       
 </aside>
 
+<aside class="margin-math margin-math-right">
+  <strong>Definition of $\kappa_0$ for a family $\pi:(X,\mathcal B)\rightarrow Y$:</strong><br>
+  $$
+    \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
+  $$
+  <hr>
+
+  \[
+    \begin{CD}
+      A @>f>> B \\
+      @VgVV   @VVhV \\
+      C @>>k> D
+    \end{CD}
+  \]
+
+</aside>
+
 # **Research**
 
 My research focuses on moduli spaces of surfaces, especially del Pezzo surfaces and their weighted variants. I am currently working on $$\kappa$$-class computations for these moduli spaces, using KSBA-stability and explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including relationships with Weyl groups and associated graphs. I am generally motivated by settings where concrete examples illuminate how intersection theory, combinatorics, and birational geometry interact.
