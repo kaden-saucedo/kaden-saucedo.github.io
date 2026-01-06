@@ -97,12 +97,9 @@ title: "Research"
 </aside>
 
 <aside class="margin-math margin-math-right">
-  <strong>Definition of $\kappa_0$ for a family $\pi:(X,\mathcal B)\rightarrow Y$:</strong><br>
-  $$
-    \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
-  $$
+  <strong>del Pezzo Surfaces:</strong>
+  <br>
   <hr>
-
   <figure class="margin-figure petersen">
   <svg
     viewBox="0 0 200 200"
