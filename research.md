@@ -3,7 +3,7 @@ layout: math
 title: "Research"
 ---
 
-<!-- <aside class="margin-math margin-math-left">
+"<aside class="margin-math margin-math-left">
   <strong>Definition of \(\kappa_0\) for a family \(\pi:(X,\mathcal B)\rightarrow Y\):</strong><br>
   $$
     \kappa_0 = \pi_*\big((K_{\pi}+\mathcal B)^{\dim X}\big)
@@ -156,7 +156,7 @@ title: "Research"
   </figcaption>
 </figure>
 
-</aside> -->
+</aside>"
 
 # **Research**
 
