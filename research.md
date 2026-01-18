@@ -5,7 +5,7 @@ title: "Research"
 
 # **Research**
 
-My research studies KSBA moduli spaces of surfaces, with particular emphasis on del Pezzo surfaces and their weighted marked variants. I am currently computing $$\kappa$$-classes on these moduli spaces using explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including their relationships with Weyl groups and associated graphs. I am especially interested in settings where concrete examples clarify the interaction between intersection theory, combinatorics, and birational geometry.
+My research studies KSBA moduli spaces of surfaces, with particular emphasis on del Pezzo surfaces and their weighted marked variants. I am computing $$\kappa$$-classes on these moduli spaces using explicit intersection-theoretic techniques. These del Pezzo examples are guided by the combinatorics of surface degenerations, including their relationships with Weyl groups and associated graphs, as well as serve as concrete settings in which to study the interaction between intersection theory, combinatorics, and birational geometry.
 
 I am particularly interested in:
 
@@ -17,7 +17,7 @@ Some guiding questions for my work include:
 
 - How does the **birational geometry** of KSBA moduli spaces of surfaces reflect the combinatorics of surface degenerations?
 - To what extent do tautological classes such as the $$\kappa$$-classes satisfy **structural properties** on these moduli spaces, for instance generating the Chow ring or behaving functorially under natural morphisms?
-- When **weights** are introduced on boundary divisors, how do the $$\kappa$$-classes transform under **wall-crossing** between chambers, in analogy with Hassett’s moduli spaces of weighted pointed curves?
+- When **weights** are introduced on boundary divisors, how do the $$\kappa$$-classes transform under **wall-crossings** between chambers, in analogy with Hassett’s moduli spaces of weighted pointed curves?
 
 ---
 
