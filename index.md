@@ -9,11 +9,13 @@ title: "Home"
 
 I am a **PhD student** in the Department of Mathematics at the [**University of Georgia**](https://www.uga.edu), where I study [**algebraic geometry**](https://en.wikipedia.org/wiki/algebraic_geometry) under the direction of [**Valery Alexeev**](https://www.math.uga.edu/directory/people/valery-alexeev).
 
-I study the geometry of [moduli spaces](https://en.wikipedia.org/wiki/Moduli_space), with a focus on moduli of [del Pezzo surfaces](https://en.wikipedia.org/wiki/Del_Pezzo_surface) and their KSBA compactifications. Much of my work involves explicit intersection-theoretic calculations, which help clarify how birational geometry influences the structure of these spaces. I am especially interested in concrete settings where these ideas can be computed and understood in detail.
+I study [moduli spaces](https://en.wikipedia.org/wiki/Moduli_space) of algebraic varieties, with current emphasis on compactifications and universal families. Much of my recent work focuses on KSBA compactifications of marked surface pairs, especially marked cubic surfaces and related [del Pezzo surfaces](https://en.wikipedia.org/wiki/Del_Pezzo_surface).
 
-At the moment, my main project focuses on cubic surfaces and degree \\(4\\) del Pezzo surfaces: I am working to understand how \\(\kappa\\)-classes generate and intersect in the Chow ring of the moduli space, and how these classes behave under variations of weights on the boundary (in the spirit of Hassett’s weighted stable curves).
+I am interested in how geometric constructions on algebraic varieties extend to universal families and how these constructions influence the geometry of compactified moduli spaces. I am particularly interested in explicit descriptions of moduli spaces and the geometry of the families they carry.
 
-On this site, you can find information about my [**research**](/research), [**teaching**](/teaching), and future [**notes and expository writing**](/notes) in algebraic geometry.
+At the moment, my main project studies the universal family over a weighted KSBA compactification of the moduli space of marked cubic surfaces. The project focuses on understanding how geometric constructions on smooth cubic surfaces extend across the compactification and what this tells us about the geometry of the universal family.
+
+On this site, you can find information about my [**research**](/research), [**teaching**](/teaching), [**notes**](/notes), and other mathematical interests.
 
 <br>
 
