@@ -49,5 +49,5 @@ I am interested in extending these questions to related moduli problems, includi
 At present these are directions of interest rather than active projects.
 
 <p align="center">
-  <img src="/assets/img/group-chalkboard.JPG" alt="UGA math group" style="width:80%; border-radius:10px;">
+  <img src="/assets/img/Spring26-Class-Picture.jpg.webp" alt="UGA math group" style="width:80%; border-radius:10px;">
 </p>
