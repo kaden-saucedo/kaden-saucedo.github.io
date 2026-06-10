@@ -42,6 +42,7 @@ As applications, the project studies:
 
 I am interested in extending these questions to related moduli problems, including:
 
+- explicit wall-crossing transformations of universal family for weighted KSBA-stable marked cubic surfaces;
 - weighted KSBA compactifications of lower-degree del Pezzo surfaces;
 - moduli spaces associated with real cubic surfaces; and
 - modular compactifications related to Coble surfaces.
