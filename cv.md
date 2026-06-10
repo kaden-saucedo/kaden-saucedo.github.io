@@ -12,4 +12,4 @@ You can download my current CV here:
  
 <br> 
 
-Last updated: December 2025 
+Last updated: June 2026 
