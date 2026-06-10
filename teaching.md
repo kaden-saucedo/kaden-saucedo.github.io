@@ -38,7 +38,7 @@ I have mentored two undergraduate students through UGA’s [Directed Reading Pro
 
 - **Spring 2025:** An introduction to [**category theory**](https://en.wikipedia.org/wiki/Category_theory), focusing on basic categorical language and examples relevant to algebra and topology.
 - **Fall 2025:** An introduction to [**algebraic surfaces**](https://en.wikipedia.org/wiki/Algebraic_surface), emphasizing concrete examples and the geometry of blowups.
-- **Spring 2026:** An introduction to [**elementary number theory**](https://en.wikipedia.org/wiki/Number_theory#Elementary_number_theory), looking at congruences, multiplicative arithmetic functions, and some lattice problems (e.g. [**Gauss's Circle Problem**](https://en.wikipedia.org/wiki/Gauss_circle_problem).
+- **Spring 2026:** An introduction to [**elementary number theory**](https://en.wikipedia.org/wiki/Number_theory#Elementary_number_theory), looking at congruences, multiplicative arithmetic functions, and some lattice problems (e.g. [**Gauss's Circle Problem**](https://en.wikipedia.org/wiki/Gauss_circle_problem)).
 
 I enjoy DRP-style mentoring because it allows students to explore advanced topics at their own pace, while learning how to read mathematics independently and discuss it in a research-like setting.
 
