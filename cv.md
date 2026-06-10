@@ -8,7 +8,7 @@ permalink: /cv/
 
 You can download my current CV here: 
 
-**[Download CV (PDF)](/assets/cv/Kaden_Saucedo_CV.pdf)**
+**[Download CV (PDF)](/assets/cv/Saucedo-CV-Summer26.pdf)**
  
 <br> 
 
